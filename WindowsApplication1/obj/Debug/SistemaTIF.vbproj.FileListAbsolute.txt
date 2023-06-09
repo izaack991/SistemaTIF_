@@ -1,0 +1,365 @@
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\bin\Debug\SistemaControlProduccion.exe.config
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\bin\Debug\SistemaControlProduccion.exe.manifest
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\bin\Debug\SistemaControlProduccion.application
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\bin\Debug\SistemaControlProduccion.exe
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\bin\Debug\SistemaControlProduccion.pdb
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\bin\Debug\SistemaControlProduccion.xml
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmBusqueda.resources
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCAT_ClasificacionExp.resources
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCAT_Clientes.resources
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCAT_Especies.resources
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCAT_Familias.resources
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCAT_MarcasVehiculos.resources
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCAT_Productos.resources
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCAT_ProductosCte.resources
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCAT_Subfamilias.resources
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCAT_TipoGanado.resources
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCAT_TiposVehiculo.resources
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_EntradaGanadoEnPie.resources
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_EntradaPieles.resources
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_EntradaSacrificio.resources
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_EntradasVehiculos.resources
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_EntradaVisceras.resources
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_GanadoEnPie.resources
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_InventarioCanales.resources
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_InventarioPieles.resources
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_InventarioVisceras.resources
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_Movimiento_EntSal.resources
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_Pieles.resources
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_RelacionGanadoEnPie.resources
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_RelacionSalidaCanales.resources
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_RelacionSalidaPieles.resources
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_Sacrificio.resources
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_SalidaVisceras.resources
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCRViewer.resources
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.mdiPrincipal.resources
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.Resources.resources
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmEntradaVehiculos.resources
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_GanadoEnPie.resources
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_Pieles.resources
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_Sacrificio.resources
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_SalidaCanales.resources
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_Salida_Pieles.resources
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_Salida_Visceras.resources
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_Salida_ViscerasDecomisos.resources
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_ViscerasRojas.resources
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_ViscerasVerdes.resources
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmMisc_1.resources
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaTIF.vbproj.GenerateResource.Cache
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.exe.manifest
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.application
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.exe
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.xml
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.pdb
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_ProgramacionCorte.resources
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_ProduccionCortes.resources
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_InventarioCajas.resources
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_RelacionCortes.resources
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONFIG_Permisos_Validaciones.resources
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_SalidaCajas.resources
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_RelacionSalidaCajas.resources
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_RelacionEntradaCajas.resources
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_ReetiquetarCajas.resources
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_SalidaCajas_xID.resources
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_SalidaCanales_xID.resources
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_EntradaCajas_xDev.resources
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaTIF.vbprojResolveAssemblyReference.cache
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmINV_Registro.resources
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_RelacionInventarios.resources
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_RegistroInventario.resources
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmINV_AjusteDeInventario.resources
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_KardexCaja.resources
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_KardexCaja_Producto.resources
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmUTIL_Contrasena.resources
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_SalidaCanales_x_Transformacion.resources
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_EntradaProdTransf.resources
+E:\Documentos\Sin Clasificar\Mn\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_RelacionSalidaCajas_Det.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\bin\Debug\SistemaControlProduccion.exe.config
+D:\Sistema\SistemaTIF\WindowsApplication1\bin\Debug\SistemaControlProduccion.exe.manifest
+D:\Sistema\SistemaTIF\WindowsApplication1\bin\Debug\SistemaControlProduccion.application
+D:\Sistema\SistemaTIF\WindowsApplication1\bin\Debug\SistemaControlProduccion.exe
+D:\Sistema\SistemaTIF\WindowsApplication1\bin\Debug\SistemaControlProduccion.pdb
+D:\Sistema\SistemaTIF\WindowsApplication1\bin\Debug\SistemaControlProduccion.xml
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaTIF.vbprojResolveAssemblyReference.cache
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmBusqueda.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCAT_ClasificacionExp.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCAT_Clientes.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCAT_Especies.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCAT_Familias.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCAT_MarcasVehiculos.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCAT_Productos.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCAT_ProductosCte.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCAT_Subfamilias.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCAT_TipoGanado.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCAT_TiposVehiculo.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONFIG_Permisos_Validaciones.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.FrmConsGrafica.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_EntradaGanadoEnPie.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_EntradaPieles.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_EntradaSacrificio.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_EntradasVehiculos.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_EntradaVisceras.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_GanadoEnPie.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_InventarioCajas.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_InventarioCanales.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_InventarioPieles.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_InventarioVisceras.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_INVENTARIOXINTR.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_Movimiento_EntSal.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_Pieles.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_RelacionCortes.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_RelacionEntradaCajas.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_RelacionGanadoEnPie.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_RelacionSalidaCajas.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_RelacionSalidaCajas_Det.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_RelacionSalidaCanales.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_RelacionSalidaPieles.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_RELACION_MERMAS_CANALES.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_Sacrificio.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_SalidaVisceras.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCRViewer.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPedidos.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmLogin.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_KardexCaja.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_KardexCaja_Producto.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_RegistroInventario.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_RelacionInventarios.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmINV_AjusteDeInventario.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmINV_Registro.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.mdiPrincipal.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.Resources.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmEntradaVehiculos.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_EntradaCajas_xDev.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_EntradaProdTransf.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_GanadoEnPie.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_Pieles.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_ProduccionCortes.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_ProgramacionCorte.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_ReetiquetarCajas.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_Sacrificio.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_SalidaCajas.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_SalidaCajas_xID.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_SalidaCanales.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_SalidaCanales_xID.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_SalidaCanales_x_Transformacion.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_Salida_Pieles.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_Salida_Visceras.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_Salida_ViscerasDecomisos.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_TRANSF_CAJAS.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_TrasnfCajas_ID.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_ViscerasRojas.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_ViscerasVerdes.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmRevisionCajas.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.FrmAbrirCerrarCorte.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmGenerarArchivos.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmMisc_1.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmUTIL_Contrasena.resources
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaTIF.vbproj.GenerateResource.Cache
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.exe.licenses
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.exe.manifest
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.application
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.exe
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.xml
+D:\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.pdb
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmBusqueda.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCAT_ClasificacionExp.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCAT_Clientes.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCAT_Especies.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCAT_Familias.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCAT_MarcasVehiculos.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCAT_Productos.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCAT_ProductosCte.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCAT_Subfamilias.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCAT_TipoGanado.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCAT_TiposVehiculo.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONFIG_Permisos_Validaciones.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.FrmConsGrafica.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_EntradaGanadoEnPie.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_EntradaPieles.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_EntradaSacrificio.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_EntradasVehiculos.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_EntradaVisceras.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_GanadoEnPie.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_InventarioCajas.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_InventarioCanales.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_InventarioPieles.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_InventarioVisceras.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_INVENTARIOXINTR.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_Movimiento_EntSal.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_Pieles.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_RelacionCortes.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_RelacionEntradaCajas.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_RelacionGanadoEnPie.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_RelacionSalidaCajas.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_RelacionSalidaCajas_Det.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_RelacionSalidaCanales.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_RelacionSalidaPieles.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_RELACION_MERMAS_CANALES.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_Sacrificio.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_SalidaVisceras.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCRViewer.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPedidos.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmLogin.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_KardexCaja.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_KardexCaja_Producto.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_RegistroInventario.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_RelacionInventarios.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmINV_AjusteDeInventario.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmINV_Registro.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.mdiPrincipal.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.Resources.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmEntradaVehiculos.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_EntradaCajas_xDev.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_EntradaProdTransf.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_GanadoEnPie.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_Pieles.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_ProduccionCortes.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_ProgramacionCorte.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_ReetiquetarCajas.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_Sacrificio.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_SalidaCajas.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_SalidaCajas_xID.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_SalidaCanales.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_SalidaCanales_xID.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_SalidaCanales_x_Transformacion.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_Salida_Pieles.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_Salida_Visceras.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_Salida_ViscerasDecomisos.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_TRANSF_CAJAS.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_TrasnfCajas_ID.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_ViscerasRojas.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_ViscerasVerdes.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmRevisionCajas.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.FrmAbrirCerrarCorte.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmGenerarArchivos.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmMisc_1.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmUTIL_Contrasena.resources
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaTIF.vbproj.GenerateResource.Cache
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.exe.licenses
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\bin\Debug\SistemaControlProduccion.exe.config
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\bin\Debug\SistemaControlProduccion.exe.manifest
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\bin\Debug\SistemaControlProduccion.application
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\bin\Debug\SistemaControlProduccion.exe
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\bin\Debug\SistemaControlProduccion.pdb
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\bin\Debug\SistemaControlProduccion.xml
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaTIF.vbprojResolveAssemblyReference.cache
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.exe.manifest
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.application
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.exe
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.xml
+C:\Users\usermoto\Desktop\sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.pdb
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\bin\Debug\SistemaControlProduccion.exe.config
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\bin\Debug\SistemaControlProduccion.exe.manifest
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\bin\Debug\SistemaControlProduccion.application
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\bin\Debug\SistemaControlProduccion.exe
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\bin\Debug\SistemaControlProduccion.pdb
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\bin\Debug\SistemaControlProduccion.xml
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaTIF.vbprojResolveAssemblyReference.cache
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmBusqueda.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.fRM_BUSQUEDA_PS.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCAT_ClasificacionExp.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCAT_Clientes.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCAT_Especies.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCAT_Familias.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCAT_MarcasVehiculos.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCAT_Productos.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCAT_ProductosCte.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCAT_Subfamilias.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCAT_TipoGanado.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCAT_TiposVehiculo.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONFIG_Permisos_Validaciones.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.FrmConsGrafica.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_EntradaGanadoEnPie.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_EntradaPieles.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_EntradaSacrificio.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_EntradasVehiculos.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_EntradaVisceras.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_GanadoEnPie.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_InventarioCajas.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_InventarioCanales.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_InventarioPieles.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_InventarioVisceras.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_INVENTARIOXINTR.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_Mermagrasahueso.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_Movimiento_EntSal.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_PCC1B.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_Pieles.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_RelacionCortes.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_RelacionEntradaCajas.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_RelacionGanadoEnPie.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_RelacionSalidaCajas.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_RelacionSalidaCajas_Det.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_RelacionSalidaCanales.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_RelacionSalidaPieles.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_RELACION_MERMAS_CANALES.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_Sacrificio.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_SalidaVisceras.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCRViewer.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPedidos.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.FRM_REV_CALIDAD.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmLogin.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.FRM_MENU_PRINCIPAL.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_KardexCaja.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_KardexCaja_Producto.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_RegistroInventario.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_RelacionInventarios.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmINV_AjusteDeInventario.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmINV_Registro.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.mdiPrincipal.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.Resources.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmEntradaVehiculos.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmKPI_INGESTA.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_EntradaCajas_xDev.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_EntradaProdTransf.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_GanadoEnPie.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_MERMA_GH.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_Pieles.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_ProduccionCortes.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_ProgramacionCorte.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_ReetiquetarCajas.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_Sacrificio.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_SalidaCajas.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_SalidaCajas_xID.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_SalidaCanales.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_SalidaCanales_xID.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_SalidaCanales_x_Transformacion.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_Salida_Pieles.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_Salida_Visceras.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_Salida_ViscerasDecomisos.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_TRANSF_CAJAS.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_TrasnfCajas_ID.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_ViscerasRojas.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_ViscerasVerdes.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmRevisionCajas.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.FRM_PROGRAMA_SACRIFICIO.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.FrmAbrirCerrarCorte.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmGenerarArchivos.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmMisc_1.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmUTIL_Contrasena.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaTIF.vbproj.GenerateResource.Cache
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.exe.licenses
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.exe.manifest
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.application
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.exe
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.xml
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.pdb
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_SacrificioSospechos.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.FRM_BUS_SOSPECHOSOS.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmBusquedaCortes.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmPROC_COSTEO.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCAT_INSUMOS.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmBusInsumos.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmBusProveedor.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.fmrPROC_COMPRAS_INSUMOS.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmBusProdListaPrec.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmListaPrecios.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmCONS_MEAT.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmOrdenSacrificio.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmWarning.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmSuccess.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.frmOrdenProduccionPie.resources
+C:\Users\JAVIER\Documents\Sistemas\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.MenuLiveStock.resources
+C:\Users\JAVIER\Documents\Sistemas\Respaldo\Sistema\SistemaTIF\WindowsApplication1\bin\Debug\SistemaControlProduccion.exe.config
+C:\Users\JAVIER\Documents\Sistemas\Respaldo\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.exe
+C:\Users\JAVIER\Documents\Sistemas\Respaldo\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.xml
+C:\Users\JAVIER\Documents\Sistemas\Respaldo\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.pdb

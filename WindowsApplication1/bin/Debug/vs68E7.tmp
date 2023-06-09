@@ -1,0 +1,700 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SistemaControlProduccion
+</name>
+</assembly>
+<members>
+<member name="T:SistemaControlProduccion.dsSacrificio.SP_CONS_ENTSAL_ENCDETDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificio.SP_CONS_ENTSAL_ENCDET_X_FECHADataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificio.SP_CONS_ENTSAL_ENCDET_X_FECHA_CANALDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificio.SP_CONS_ENTSAL_VISCERAS_FECHA_ALMACENDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificio.SP_CONS_ENTSAL_X_MOVTODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificio.SP_CONS_ENTSAL_X_MOVTO_RESUMENDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificio.SP_CONS_ENTSAL_COBRANZA_CANALDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificio.SP_CONS_ENTSAL_ENCDET_X_LOTE_FECHA_RENDIMIENTODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificio.SP_CONS_ENTSAL_GANADO_FECHA_ALMACENDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificio.SP_CONS_ENTSAL_ENCDET_X_FECHA_LOTE_CANALDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificio.SP_CONS_ENTSAL_ENCDET_X_FECHA_LOTE_PIELDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificio.SP_CONS_ENTSAL_ENCDET_X_FECHA_LOTE_VISCERASDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificio.SP_CONS_ENTSAL_ENCDET_X_FECHA_LOTE_GANPIEDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificio.SP_CONS_ENTSAL_ENCDET_X_FECHA_LOTE_CANAL_INDIVIDUALDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificio.SP_CONS_ENTSAL_ENCDET_X_ALMACEN_CANALDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificio.SP_CONS_ENTSAL_X_MOVTO_TMPDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificio.SP_CONS_ENTSAL_SALIDA_CANALESDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificio.SP_CONS_ENTSAL_ENCDETRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificio.SP_CONS_ENTSAL_ENCDET_X_FECHARow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificio.SP_CONS_ENTSAL_ENCDET_X_FECHA_CANALRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificio.SP_CONS_ENTSAL_VISCERAS_FECHA_ALMACENRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificio.SP_CONS_ENTSAL_X_MOVTORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificio.SP_CONS_ENTSAL_X_MOVTO_RESUMENRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificio.SP_CONS_ENTSAL_COBRANZA_CANALRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificio.SP_CONS_ENTSAL_ENCDET_X_LOTE_FECHA_RENDIMIENTORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificio.SP_CONS_ENTSAL_GANADO_FECHA_ALMACENRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificio.SP_CONS_ENTSAL_ENCDET_X_FECHA_LOTE_CANALRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificio.SP_CONS_ENTSAL_ENCDET_X_FECHA_LOTE_PIELRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificio.SP_CONS_ENTSAL_ENCDET_X_FECHA_LOTE_VISCERASRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificio.SP_CONS_ENTSAL_ENCDET_X_FECHA_LOTE_GANPIERow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificio.SP_CONS_ENTSAL_ENCDET_X_FECHA_LOTE_CANAL_INDIVIDUALRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificio.SP_CONS_ENTSAL_ENCDET_X_ALMACEN_CANALRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificio.SP_CONS_ENTSAL_X_MOVTO_TMPRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificio.SP_CONS_ENTSAL_SALIDA_CANALESRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificio.SP_CONS_ENTSAL_ENCDETRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificio.SP_CONS_ENTSAL_ENCDET_X_FECHARowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificio.SP_CONS_ENTSAL_ENCDET_X_FECHA_CANALRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificio.SP_CONS_ENTSAL_VISCERAS_FECHA_ALMACENRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificio.SP_CONS_ENTSAL_X_MOVTORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificio.SP_CONS_ENTSAL_X_MOVTO_RESUMENRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificio.SP_CONS_ENTSAL_COBRANZA_CANALRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificio.SP_CONS_ENTSAL_ENCDET_X_LOTE_FECHA_RENDIMIENTORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificio.SP_CONS_ENTSAL_GANADO_FECHA_ALMACENRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificio.SP_CONS_ENTSAL_ENCDET_X_FECHA_LOTE_CANALRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificio.SP_CONS_ENTSAL_ENCDET_X_FECHA_LOTE_PIELRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificio.SP_CONS_ENTSAL_ENCDET_X_FECHA_LOTE_VISCERASRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificio.SP_CONS_ENTSAL_ENCDET_X_FECHA_LOTE_GANPIERowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificio.SP_CONS_ENTSAL_ENCDET_X_FECHA_LOTE_CANAL_INDIVIDUALRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificio.SP_CONS_ENTSAL_ENCDET_X_ALMACEN_CANALRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificio.SP_CONS_ENTSAL_X_MOVTO_TMPRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificio.SP_CONS_ENTSAL_SALIDA_CANALESRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificio">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificioTableAdapters.SP_CONS_ENTSAL_ENCDETTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificioTableAdapters.SP_CONS_ENTSAL_ENCDET_X_FECHATableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificioTableAdapters.SP_CONS_ENTSAL_ENCDET_X_FECHA_CANALTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificioTableAdapters.SP_CONS_ENTSAL_VISCERAS_FECHA_ALMACENTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificioTableAdapters.SP_CONS_ENTSAL_X_MOVTOTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificioTableAdapters.SP_CONS_ENTSAL_X_MOVTO_RESUMENTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificioTableAdapters.SP_CONS_ENTSAL_COBRANZA_CANALTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificioTableAdapters.SP_CONS_ENTSAL_ENCDET_X_LOTE_FECHA_RENDIMIENTOTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificioTableAdapters.SP_CONS_ENTSAL_GANADO_FECHA_ALMACENTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificioTableAdapters.SP_CONS_ENTSAL_ENCDET_X_FECHA_LOTE_CANALTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificioTableAdapters.SP_CONS_ENTSAL_ENCDET_X_FECHA_LOTE_PIELTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificioTableAdapters.SP_CONS_ENTSAL_ENCDET_X_FECHA_LOTE_VISCERASTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificioTableAdapters.SP_CONS_ENTSAL_ENCDET_X_FECHA_LOTE_GANPIETableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificioTableAdapters.SP_CONS_ENTSAL_ENCDET_X_FECHA_LOTE_CANAL_INDIVIDUALTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificioTableAdapters.SP_CONS_ENTSAL_ENCDET_X_ALMACEN_CANALTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificioTableAdapters.SP_CONS_ENTSAL_X_MOVTO_TMPTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificioTableAdapters.SP_CONS_ENTSAL_SALIDA_CANALESTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:SistemaControlProduccion.dsSacrificioTableAdapters.TableAdapterManager.UpdateUpdatedRows(SistemaControlProduccion.dsSacrificio,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:SistemaControlProduccion.dsSacrificioTableAdapters.TableAdapterManager.UpdateInsertedRows(SistemaControlProduccion.dsSacrificio,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:SistemaControlProduccion.dsSacrificioTableAdapters.TableAdapterManager.UpdateDeletedRows(SistemaControlProduccion.dsSacrificio,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:SistemaControlProduccion.dsSacrificioTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:SistemaControlProduccion.dsSacrificioTableAdapters.TableAdapterManager.UpdateAll(SistemaControlProduccion.dsSacrificio)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificioTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificioTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:SistemaControlProduccion.dsSacrificioTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:SistemaControlProduccion.dsMovimientos.SP_CONS_ENTSAL_RELACION_SALIDA_CANALESDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsMovimientos.SP_CONS_ENTSAL_RELACION_SALIDA_CANALESRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsMovimientos.SP_CONS_ENTSAL_RELACION_SALIDA_CANALESRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SistemaControlProduccion.dsMovimientos">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsMovimientosTableAdapters.SP_CONS_ENTSAL_RELACION_SALIDA_CANALESTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:SistemaControlProduccion.dsMovimientosTableAdapters.TableAdapterManager.UpdateUpdatedRows(SistemaControlProduccion.dsMovimientos,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:SistemaControlProduccion.dsMovimientosTableAdapters.TableAdapterManager.UpdateInsertedRows(SistemaControlProduccion.dsMovimientos,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:SistemaControlProduccion.dsMovimientosTableAdapters.TableAdapterManager.UpdateDeletedRows(SistemaControlProduccion.dsMovimientos,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:SistemaControlProduccion.dsMovimientosTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:SistemaControlProduccion.dsMovimientosTableAdapters.TableAdapterManager.UpdateAll(SistemaControlProduccion.dsMovimientos)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsMovimientosTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:SistemaControlProduccion.dsMovimientosTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:SistemaControlProduccion.dsMovimientosTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogos.SP_CONS_FAMILIASDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogos.SP_CONS_ESPECIESDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogos.SP_CONS_MARCAS_VEHICULOSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogos.SP_CONS_TIPOS_VEHICULODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogos.SP_CONS_CLASIFICACION_EXPDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogos.SP_CONS_TIPOS_ENTRADA_VEHICULOSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogos.SP_CONS_SUBFAMILIASDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogos.SP_CONS_TIPO_GANADODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogos.EMPRESASDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogos.SP_CAT_SUBFAMILIASDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogos.SP_CAT_TIPOS_GANADODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogos.SP_CONS_CLIENTESDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogos.SP_CONS_ENTRADASDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogos.SP_CONS_TIPOS_CLIENTEDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogos.SP_CONS_PRODUCTOSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogos.SP_CONS_REFRIGERACIONDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogos.SP_CONS_FAMILIASRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogos.SP_CONS_ESPECIESRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogos.SP_CONS_MARCAS_VEHICULOSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogos.SP_CONS_TIPOS_VEHICULORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogos.SP_CONS_CLASIFICACION_EXPRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogos.SP_CONS_TIPOS_ENTRADA_VEHICULOSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogos.SP_CONS_SUBFAMILIASRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogos.SP_CONS_TIPO_GANADORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogos.EMPRESASRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogos.SP_CAT_SUBFAMILIASRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogos.SP_CAT_TIPOS_GANADORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogos.SP_CONS_CLIENTESRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogos.SP_CONS_ENTRADASRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogos.SP_CONS_TIPOS_CLIENTERow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogos.SP_CONS_PRODUCTOSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogos.SP_CONS_REFRIGERACIONRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogos.SP_CONS_FAMILIASRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogos.SP_CONS_ESPECIESRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogos.SP_CONS_MARCAS_VEHICULOSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogos.SP_CONS_TIPOS_VEHICULORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogos.SP_CONS_CLASIFICACION_EXPRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogos.SP_CONS_TIPOS_ENTRADA_VEHICULOSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogos.SP_CONS_SUBFAMILIASRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogos.SP_CONS_TIPO_GANADORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogos.EMPRESASRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogos.SP_CAT_SUBFAMILIASRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogos.SP_CAT_TIPOS_GANADORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogos.SP_CONS_CLIENTESRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogos.SP_CONS_ENTRADASRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogos.SP_CONS_TIPOS_CLIENTERowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogos.SP_CONS_PRODUCTOSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogos.SP_CONS_REFRIGERACIONRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogos">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogosTableAdapters.SP_CONS_FAMILIASTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogosTableAdapters.SP_CONS_ESPECIESTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogosTableAdapters.SP_CONS_MARCAS_VEHICULOSTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogosTableAdapters.SP_CONS_TIPOS_VEHICULOTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogosTableAdapters.SP_CONS_CLASIFICACION_EXPTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogosTableAdapters.SP_CONS_TIPOS_ENTRADA_VEHICULOSTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogosTableAdapters.SP_CONS_SUBFAMILIASTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogosTableAdapters.SP_CONS_TIPO_GANADOTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogosTableAdapters.EMPRESASTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogosTableAdapters.SP_CAT_SUBFAMILIASTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogosTableAdapters.SP_CAT_TIPOS_GANADOTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogosTableAdapters.SP_CONS_CLIENTESTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogosTableAdapters.SP_CONS_ENTRADASTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogosTableAdapters.SP_CONS_TIPOS_CLIENTETableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogosTableAdapters.SP_CONS_PRODUCTOSTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogosTableAdapters.SP_CONS_REFRIGERACIONTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:SistemaControlProduccion.dsCatalogosTableAdapters.TableAdapterManager.UpdateUpdatedRows(SistemaControlProduccion.dsCatalogos,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:SistemaControlProduccion.dsCatalogosTableAdapters.TableAdapterManager.UpdateInsertedRows(SistemaControlProduccion.dsCatalogos,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:SistemaControlProduccion.dsCatalogosTableAdapters.TableAdapterManager.UpdateDeletedRows(SistemaControlProduccion.dsCatalogos,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:SistemaControlProduccion.dsCatalogosTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:SistemaControlProduccion.dsCatalogosTableAdapters.TableAdapterManager.UpdateAll(SistemaControlProduccion.dsCatalogos)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogosTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogosTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:SistemaControlProduccion.dsCatalogosTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:SistemaControlProduccion.My.Resources.Resources.ResourceManager">
+	<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member><member name="P:SistemaControlProduccion.My.Resources.Resources.Culture">
+	<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member><member name="P:SistemaControlProduccion.My.Resources.Resources.backgroundWhite">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SistemaControlProduccion.My.Resources.Resources.Cancelar">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SistemaControlProduccion.My.Resources.Resources.Eliminar">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SistemaControlProduccion.My.Resources.Resources.Guardar">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SistemaControlProduccion.My.Resources.Resources.Imprimir">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SistemaControlProduccion.My.Resources.Resources.Nuevo">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="T:SistemaControlProduccion.My.Resources.Resources">
+	<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member>
+</members>
+</doc>

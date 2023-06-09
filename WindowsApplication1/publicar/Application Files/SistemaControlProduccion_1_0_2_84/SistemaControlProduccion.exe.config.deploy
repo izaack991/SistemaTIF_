@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <configSections>
+  </configSections>
+  <connectionStrings>
+    <add name="SistemaControlProduccion.My.MySettings.cnBDTIF" connectionString="Data Source=SYSMASTER;Initial Catalog=bdTIF;Persist Security Info=True;User ID=SA" providerName="System.Data.SqlClient"/>
+  </connectionStrings>
+  <startup useLegacyV2RuntimeActivationPolicy="true">
+    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.0"/>
+  </startup>
+  <!-- <runtime><NetFx40_LegacySecurityPolicy enabled="true"/></runtime>-->
+</configuration>

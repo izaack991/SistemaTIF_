@@ -1,0 +1,2920 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D7CD9287-673E-465C-BABE-D7B021B49C17}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>SistemaControlProduccion.My.MyApplication</StartupObject>
+    <RootNamespace>SistemaControlProduccion</RootNamespace>
+    <AssemblyName>SistemaControlProduccion</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>C:\Users\JAVIER\Documents\Sistemas\PUBLICAR\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Unc</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>3</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>true</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>\\Servertif651vm\buzon\PUBLICAR\</InstallUrl>
+    <ApplicationRevision>343</ApplicationRevision>
+    <ApplicationVersion>1.0.3.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <BootstrapperComponentsLocation>Relative</BootstrapperComponentsLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>SistemaControlProduccion.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>SistemaControlProduccion.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>02DF5D95D55C066553F8C54EC671E6D95D299C09</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>SistemaTIF_6_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="DevComponents.DotNetBar2, Version=10.9.0.1, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Sparkline.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Application.vb" />
+    <Compile Include="Busquedas\frmBusInsumos.Designer.vb">
+      <DependentUpon>frmBusInsumos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Busquedas\frmBusInsumos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Busquedas\frmBusProdListaPrec.Designer.vb">
+      <DependentUpon>frmBusProdListaPrec.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Busquedas\frmBusProdListaPrec.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Busquedas\frmBusProveedor.Designer.vb">
+      <DependentUpon>frmBusProveedor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Busquedas\frmBusProveedor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Busquedas\frmBusqueda.Designer.vb">
+      <DependentUpon>frmBusqueda.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Busquedas\frmBusqueda.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Busquedas\frmBusquedaCortes.Designer.vb">
+      <DependentUpon>frmBusquedaCortes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Busquedas\frmBusquedaCortes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Busquedas\fRM_BUSQUEDA_PS.Designer.vb">
+      <DependentUpon>fRM_BUSQUEDA_PS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Busquedas\fRM_BUSQUEDA_PS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Busquedas\FRM_BUS_SOSPECHOSOS.Designer.vb">
+      <DependentUpon>FRM_BUS_SOSPECHOSOS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Busquedas\FRM_BUS_SOSPECHOSOS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catalogos\frmCAT_ClasificacionExp.designer.vb">
+      <DependentUpon>frmCAT_ClasificacionExp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\frmCAT_ClasificacionExp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catalogos\frmCAT_Clientes.Designer.vb">
+      <DependentUpon>frmCAT_Clientes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\frmCAT_Clientes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catalogos\frmCAT_Especies.designer.vb">
+      <DependentUpon>frmCAT_Especies.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\frmCAT_Especies.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catalogos\frmCAT_INSUMOS.Designer.vb">
+      <DependentUpon>frmCAT_INSUMOS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\frmCAT_INSUMOS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catalogos\frmCAT_MarcasVehiculos.designer.vb">
+      <DependentUpon>frmCAT_MarcasVehiculos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\frmCAT_MarcasVehiculos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catalogos\frmCAT_Productos.Designer.vb">
+      <DependentUpon>frmCAT_Productos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\frmCAT_Productos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catalogos\frmCAT_ProductosCte.designer.vb">
+      <DependentUpon>frmCAT_ProductosCte.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\frmCAT_ProductosCte.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catalogos\frmCAT_Subfamilias.designer.vb">
+      <DependentUpon>frmCAT_Subfamilias.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\frmCAT_Subfamilias.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catalogos\frmCAT_TipoGanado.designer.vb">
+      <DependentUpon>frmCAT_TipoGanado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\frmCAT_TipoGanado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catalogos\frmCAT_TiposVehiculo.designer.vb">
+      <DependentUpon>frmCAT_TiposVehiculo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\frmCAT_TiposVehiculo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clases\clsCliente.vb" />
+    <Compile Include="Clases\clsSacrificio.vb" />
+    <Compile Include="Clases\clsCortes.vb" />
+    <Compile Include="Clases\clsEmpresa.vb" />
+    <Compile Include="Clases\clsEntrada.vb" />
+    <Compile Include="Clases\clsEspecies.vb" />
+    <Compile Include="Clases\clsEtiqueta.vb" />
+    <Compile Include="Clases\clsFamilias.vb" />
+    <Compile Include="Clases\clsInfEtiqueta.vb" />
+    <Compile Include="Clases\clsMovimientoAlmacen.vb" />
+    <Compile Include="Clases\clsMovimientoEntSal.vb" />
+    <Compile Include="Clases\clsMovimientoEntSalDet_Productos_TMP.vb" />
+    <Compile Include="Clases\clsMovimientoEntSalDet_TMP.vb" />
+    <Compile Include="Clases\clsParametros.vb" />
+    <Compile Include="Clases\clsPermisosValidaciones.vb" />
+    <Compile Include="Clases\clsProductos.vb" />
+    <Compile Include="Clases\clsServidor.vb" />
+    <Compile Include="Clases\clsSubFamilias.vb" />
+    <Compile Include="Configuraciones\frmCONFIG_Permisos_Validaciones.Designer.vb">
+      <DependentUpon>frmCONFIG_Permisos_Validaciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Configuraciones\frmCONFIG_Permisos_Validaciones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\crptReportes\crpCONS_INVENTARIOCAJASXINTR.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crpCONS_INVENTARIOCAJASXINTR.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Consultas\crptReportes\crpCONS_REL_MERMA_CANALES.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crpCONS_REL_MERMA_CANALES.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Consultas\crptReportes\crptConcentradoRendimientos.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crptConcentradoRendimientos.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Consultas\crptReportes\crptConsConcentradorendimientogral.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crptConsConcentradorendimientogral.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Consultas\crptReportes\crptConsVerficacion.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crptConsVerficacion.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Consultas\crptReportes\crptCONS_PCC1B.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crptCONS_PCC1B.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Consultas\crptReportes\crptGraficaSacrificio.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crptGraficaSacrificio.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Consultas\crptReportes\crptMERMA_GRASAHUESO.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crptMERMA_GRASAHUESO.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Consultas\crptReportes\crptMP_NATURAL.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crptMP_NATURAL.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Consultas\crptReportes\crptPedidos.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crptPedidos.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Consultas\crptReportes\crptReporte_Verificacion_corte.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crptReporte_Verificacion_corte.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Consultas\crptReportes\crptREP_Packing_List.vb">
+      <DependentUpon>crptREP_Packing_List.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Consultas\crptReportes\crptREP_Packing_List_Classification.vb">
+      <DependentUpon>crptREP_Packing_List_Classification.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Consultas\crptReportes\crptREP_Packing_List_Lot.vb">
+      <DependentUpon>crptREP_Packing_List_Lot.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Consultas\crptReportes\crptREP_RelacionSalidasCajas.vb">
+      <DependentUpon>crptREP_RelacionSalidasCajas.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Consultas\crptReportes\crptREP_RelacionSalidasCajas_Det.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crptREP_RelacionSalidasCajas_Det.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Consultas\crptReportes\crptSUBREP_EstudioCorteMP.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crptSUBREP_EstudioCorteMP.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Consultas\crptReportes\crptSUB_CONS_PCC1B.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crptSUB_CONS_PCC1B.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Consultas\crptReportes\crpt_CONS_DETALLADO_HORA.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crpt_CONS_DETALLADO_HORA.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Consultas\crptReportes\crpt_IMP_ETIQ_PROD.vb">
+      <DependentUpon>crpt_IMP_ETIQ_PROD.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Consultas\crptReportes\crpt_IMP_ETIQ_BAFAR.vb">
+      <DependentUpon>crpt_IMP_ETIQ_BAFAR.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Consultas\crptReportes\crpt_IMP_ETIQ_EXP.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crpt_IMP_ETIQ_EXP.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Consultas\crptReportes\crpt_VERICAR_CORTE.vb">
+      <DependentUpon>crpt_VERICAR_CORTE.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Consultas\crptReportes\crpt_MEJORADO.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crpt_MEJORADO.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Consultas\FrmConsGrafica.Designer.vb">
+      <DependentUpon>FrmConsGrafica.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\FrmConsGrafica.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\frmCONS_EntradaGanadoEnPie.designer.vb">
+      <DependentUpon>frmCONS_EntradaGanadoEnPie.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\frmCONS_EntradaGanadoEnPie.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\frmCONS_EntradaPieles.designer.vb">
+      <DependentUpon>frmCONS_EntradaPieles.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\frmCONS_EntradaPieles.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\frmCONS_EntradaSacrificio.designer.vb">
+      <DependentUpon>frmCONS_EntradaSacrificio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\frmCONS_EntradaSacrificio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\frmCONS_EntradasVehiculos.Designer.vb">
+      <DependentUpon>frmCONS_EntradasVehiculos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\frmCONS_EntradasVehiculos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\frmCONS_EntradaVisceras.designer.vb">
+      <DependentUpon>frmCONS_EntradaVisceras.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\frmCONS_EntradaVisceras.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\frmCONS_GanadoEnPie.Designer.vb">
+      <DependentUpon>frmCONS_GanadoEnPie.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\frmCONS_GanadoEnPie.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\frmCONS_InventarioCajas.designer.vb">
+      <DependentUpon>frmCONS_InventarioCajas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\frmCONS_InventarioCajas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\frmCONS_InventarioCanales.designer.vb">
+      <DependentUpon>frmCONS_InventarioCanales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\frmCONS_InventarioCanales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\frmCONS_InventarioPieles.designer.vb">
+      <DependentUpon>frmCONS_InventarioPieles.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\frmCONS_InventarioPieles.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\frmCONS_InventarioVisceras.designer.vb">
+      <DependentUpon>frmCONS_InventarioVisceras.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\frmCONS_InventarioVisceras.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\frmCONS_INVENTARIOXINTR.Designer.vb">
+      <DependentUpon>frmCONS_INVENTARIOXINTR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\frmCONS_INVENTARIOXINTR.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\frmCONS_MEAT.Designer.vb">
+      <DependentUpon>frmCONS_MEAT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\frmCONS_MEAT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\frmCONS_Mermagrasahueso.Designer.vb">
+      <DependentUpon>frmCONS_Mermagrasahueso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\frmCONS_Mermagrasahueso.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\frmCONS_Movimiento_EntSal.Designer.vb">
+      <DependentUpon>frmCONS_Movimiento_EntSal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\frmCONS_Movimiento_EntSal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\frmCONS_PCC1B.Designer.vb">
+      <DependentUpon>frmCONS_PCC1B.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\frmCONS_PCC1B.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\frmCONS_Pieles.designer.vb">
+      <DependentUpon>frmCONS_Pieles.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\frmCONS_Pieles.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\frmCONS_RelacionCortes.designer.vb">
+      <DependentUpon>frmCONS_RelacionCortes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\frmCONS_RelacionCortes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\frmCONS_RelacionEntradaCajas.designer.vb">
+      <DependentUpon>frmCONS_RelacionEntradaCajas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\frmCONS_RelacionEntradaCajas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\frmCONS_RelacionGanadoEnPie.designer.vb">
+      <DependentUpon>frmCONS_RelacionGanadoEnPie.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\frmCONS_RelacionGanadoEnPie.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\frmCONS_RelacionSalidaCajas.designer.vb">
+      <DependentUpon>frmCONS_RelacionSalidaCajas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\frmCONS_RelacionSalidaCajas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\frmCONS_RelacionSalidaCajas_Det.designer.vb">
+      <DependentUpon>frmCONS_RelacionSalidaCajas_Det.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\frmCONS_RelacionSalidaCajas_Det.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\frmCONS_RelacionSalidaCanales.designer.vb">
+      <DependentUpon>frmCONS_RelacionSalidaCanales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\frmCONS_RelacionSalidaCanales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\frmCONS_RelacionSalidaPieles.designer.vb">
+      <DependentUpon>frmCONS_RelacionSalidaPieles.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\frmCONS_RelacionSalidaPieles.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\frmCONS_RELACION_MERMAS_CANALES.Designer.vb">
+      <DependentUpon>frmCONS_RELACION_MERMAS_CANALES.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\frmCONS_RELACION_MERMAS_CANALES.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\frmCONS_Sacrificio.designer.vb">
+      <DependentUpon>frmCONS_Sacrificio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\frmCONS_Sacrificio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\frmCONS_SalidaVisceras.designer.vb">
+      <DependentUpon>frmCONS_SalidaVisceras.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\frmCONS_SalidaVisceras.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\crptReportes\crptCAT_Clientes.vb">
+      <DependentUpon>crptCAT_Clientes.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Consultas\crptReportes\crptCAT_EntradaIndividual.vb">
+      <DependentUpon>crptCAT_EntradaIndividual.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Consultas\crptReportes\crptCAT_EntradaIndividualTodo.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crptCAT_EntradaIndividualTodo.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Consultas\crptReportes\crptCAT_Entradas.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crptCAT_Entradas.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Consultas\crptReportes\crptCAT_Especies.vb">
+      <DependentUpon>crptCAT_Especies.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Consultas\crptReportes\crptCAT_Familias.vb">
+      <DependentUpon>crptCAT_Familias.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Consultas\crptReportes\crptCAT_MarcasVehiculo.vb">
+      <DependentUpon>crptCAT_MarcasVehiculo.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Consultas\crptReportes\crptCAT_Productos.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crptCAT_Productos.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Consultas\crptReportes\crptCAT_Subfamilias.vb">
+      <DependentUpon>crptCAT_Subfamilias.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Consultas\crptReportes\crptCAT_TipoGanado.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crptCAT_TipoGanado.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Consultas\crptReportes\crptCAT_TiposVehiculo.vb">
+      <DependentUpon>crptCAT_TiposVehiculo.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Consultas\crptReportes\crptCONS_Canales_Entrada.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crptCONS_Canales_Entrada.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Consultas\crptReportes\crptCONS_Cobranza_Canales.vb">
+      <DependentUpon>crptCONS_Cobranza_Canales.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Consultas\crptReportes\crptCONS_Cobranza_GanadoPie.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crptCONS_Cobranza_GanadoPie.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Consultas\crptReportes\crptCONS_RendimientoSacrificio.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crptCONS_RendimientoSacrificio.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Consultas\crptReportes\crptCONS_RendimientoSacrificio_SubRepPieCanal.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crptCONS_RendimientoSacrificio_SubRepPieCanal.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Consultas\crptReportes\crptCONS_SalidaCajas.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crptCONS_SalidaCajas.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Consultas\crptReportes\crptINV_Cajas.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crptINV_Cajas.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Consultas\crptReportes\crptINV_Cajas_Resumen.vb">
+      <DependentUpon>crptINV_Cajas_Resumen.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Consultas\crptReportes\crptINV_Canales.vb">
+      <DependentUpon>crptINV_Canales.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Consultas\crptReportes\crptINV_EntSal1.vb">
+      <DependentUpon>crptINV_EntSal.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Consultas\crptReportes\crptREP_EstudioCorte.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crptREP_EstudioCorte.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Consultas\crptReportes\crptREP_RelacionCortes.vb">
+      <DependentUpon>crptREP_RelacionCortes.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Consultas\crptReportes\crptREP_RelacionSalidasCanal.vb">
+      <DependentUpon>crptREP_RelacionSalidasCanal.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Consultas\crptReportes\crptREP_SalidaDeCanales.vb">
+      <DependentUpon>crptREP_SalidaDeCanales.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Consultas\crptReportes\crtpCONS_RendimientoSacrificio_SubRepCanales.vb">
+      <DependentUpon>crtpCONS_RendimientoSacrificio_SubRepCanales.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Consultas\crptReportes\crtpCONS_RendimientoSacrificio_SubRepGanPie.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crtpCONS_RendimientoSacrificio_SubRepGanPie.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Consultas\crptReportes\crtpCONS_RendimientoSacrificio_SubRepPieles.vb">
+      <DependentUpon>crtpCONS_RendimientoSacrificio_SubRepPieles.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Consultas\crptReportes\crtpCONS_RendimientoSacrificio_SubRepVisceras.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crtpCONS_RendimientoSacrificio_SubRepVisceras.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Consultas\crptReportes\frmCRViewer.Designer.vb">
+      <DependentUpon>frmCRViewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\crptReportes\frmCRViewer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catalogos\frmCAT_Familias.Designer.vb">
+      <DependentUpon>frmCAT_Familias.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\frmCAT_Familias.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\frmPedidos.Designer.vb">
+      <DependentUpon>frmPedidos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\frmPedidos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\frmSuccess.Designer.vb">
+      <DependentUpon>frmSuccess.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\frmSuccess.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\frmWarning.Designer.vb">
+      <DependentUpon>frmWarning.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\frmWarning.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\FRM_REV_CALIDAD.Designer.vb">
+      <DependentUpon>FRM_REV_CALIDAD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\FRM_REV_CALIDAD.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataSets\dsCajas.vb">
+      <DependentUpon>dsCajas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\dsCatalogos1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsCatalogos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\dsMovimientos.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsMovimientos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\dsMP.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsMP.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\dsSacrificio2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsSacrificio.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\dsCajas.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsCajas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\dsInventarios1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsInventarios.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsBusCortes.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsBusCortes.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsENTSALDET_TMP.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsENTSALDET_TMP.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsMERMA_GH.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsMERMA_GH.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_BUSINSUMOS.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_BUSINSUMOS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_BUS_PROD_CTE.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_BUS_PROD_CTE.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_CATINSUMOS.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_CATINSUMOS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_ENTSAL_DET_MEJ.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_ENTSAL_DET_MEJ.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_LISTA_PRECIOS.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_LISTA_PRECIOS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_LOTE_PROCESABLE.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_LOTE_PROCESABLE.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_PCC1B.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_PCC1B.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_PROG_SACRI.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_PROG_SACRI.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ds_Proveedores.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_Proveedores.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_SOSPECHOSOS.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_SOSPECHOSOS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_TMPCOMPRAS.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_TMPCOMPRAS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_TMP_LISTA_PRECIOS.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_TMP_LISTA_PRECIOS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_VERFICAR_cAJAS.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_VERFICAR_cAJAS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.Designer.vb">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_MENU_PRINCIPAL.Designer.vb">
+      <DependentUpon>FRM_MENU_PRINCIPAL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_MENU_PRINCIPAL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventarios\fmrPROC_COMPRAS_INSUMOS.Designer.vb">
+      <DependentUpon>fmrPROC_COMPRAS_INSUMOS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Inventarios\fmrPROC_COMPRAS_INSUMOS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventarios\frmCONS_KardexCaja.designer.vb">
+      <DependentUpon>frmCONS_KardexCaja.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Inventarios\frmCONS_KardexCaja.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventarios\frmCONS_KardexCaja_Producto.designer.vb">
+      <DependentUpon>frmCONS_KardexCaja_Producto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Inventarios\frmCONS_KardexCaja_Producto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventarios\frmCONS_RegistroInventario.designer.vb">
+      <DependentUpon>frmCONS_RegistroInventario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Inventarios\frmCONS_RegistroInventario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventarios\frmCONS_RelacionInventarios.designer.vb">
+      <DependentUpon>frmCONS_RelacionInventarios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Inventarios\frmCONS_RelacionInventarios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventarios\frmINV_AjusteDeInventario.designer.vb">
+      <DependentUpon>frmINV_AjusteDeInventario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Inventarios\frmINV_AjusteDeInventario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventarios\frmINV_Registro.designer.vb">
+      <DependentUpon>frmINV_Registro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Inventarios\frmINV_Registro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventarios\frmPROC_COSTEO.Designer.vb">
+      <DependentUpon>frmPROC_COSTEO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Inventarios\frmPROC_COSTEO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mdiPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mdiPrincipal.Designer.vb">
+      <DependentUpon>mdiPrincipal.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\modConexion.vb" />
+    <Compile Include="Modulos\modFuncProc.vb" />
+    <Compile Include="Modulos\modGeneral.vb" />
+    <Compile Include="Modulos\modVariablesGlobales.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Procesos\frmEntradaVehiculos.Designer.vb">
+      <DependentUpon>frmEntradaVehiculos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frmEntradaVehiculos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\frmKPI_INGESTA.Designer.vb">
+      <DependentUpon>frmKPI_INGESTA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frmKPI_INGESTA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\frmListaPrecios.Designer.vb">
+      <DependentUpon>frmListaPrecios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frmListaPrecios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\frmOrdenProduccionPie.Designer.vb">
+      <DependentUpon>frmOrdenProduccionPie.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frmOrdenProduccionPie.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\frmOrdenSacrificio.Designer.vb">
+      <DependentUpon>frmOrdenSacrificio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frmOrdenSacrificio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\frmPROC_EntradaCajas_xDev.designer.vb">
+      <DependentUpon>frmPROC_EntradaCajas_xDev.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frmPROC_EntradaCajas_xDev.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\frmPROC_EntradaProdTransf.designer.vb">
+      <DependentUpon>frmPROC_EntradaProdTransf.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frmPROC_EntradaProdTransf.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\frmPROC_GanadoEnPie.designer.vb">
+      <DependentUpon>frmPROC_GanadoEnPie.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frmPROC_GanadoEnPie.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\frmPROC_MERMA_GH.Designer.vb">
+      <DependentUpon>frmPROC_MERMA_GH.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frmPROC_MERMA_GH.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\frmPROC_Pieles.designer.vb">
+      <DependentUpon>frmPROC_Pieles.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frmPROC_Pieles.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\frmPROC_ProduccionCortes.designer.vb">
+      <DependentUpon>frmPROC_ProduccionCortes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frmPROC_ProduccionCortes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\frmPROC_ProgramacionCorte.Designer.vb">
+      <DependentUpon>frmPROC_ProgramacionCorte.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frmPROC_ProgramacionCorte.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\frmPROC_ReetiquetarCajas.designer.vb">
+      <DependentUpon>frmPROC_ReetiquetarCajas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frmPROC_ReetiquetarCajas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\frmPROC_SacrificioSospechos.Designer.vb">
+      <DependentUpon>frmPROC_SacrificioSospechos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frmPROC_SacrificioSospechos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\frmPROC_Sacrificio.Designer.vb">
+      <DependentUpon>frmPROC_Sacrificio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frmPROC_Sacrificio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\frmPROC_SalidaCajas.designer.vb">
+      <DependentUpon>frmPROC_SalidaCajas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frmPROC_SalidaCajas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\frmPROC_SalidaCajas_xID.designer.vb">
+      <DependentUpon>frmPROC_SalidaCajas_xID.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frmPROC_SalidaCajas_xID.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\frmPROC_SalidaCanales.designer.vb">
+      <DependentUpon>frmPROC_SalidaCanales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frmPROC_SalidaCanales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\frmPROC_SalidaCanales_xID.designer.vb">
+      <DependentUpon>frmPROC_SalidaCanales_xID.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frmPROC_SalidaCanales_xID.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\frmPROC_SalidaCanales_x_Transformacion.designer.vb">
+      <DependentUpon>frmPROC_SalidaCanales_x_Transformacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frmPROC_SalidaCanales_x_Transformacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\frmPROC_Salida_Pieles.designer.vb">
+      <DependentUpon>frmPROC_Salida_Pieles.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frmPROC_Salida_Pieles.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\frmPROC_Salida_Visceras.designer.vb">
+      <DependentUpon>frmPROC_Salida_Visceras.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frmPROC_Salida_Visceras.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\frmPROC_Salida_ViscerasDecomisos.designer.vb">
+      <DependentUpon>frmPROC_Salida_ViscerasDecomisos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frmPROC_Salida_ViscerasDecomisos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\frmPROC_TRANSF_CAJAS.Designer.vb">
+      <DependentUpon>frmPROC_TRANSF_CAJAS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frmPROC_TRANSF_CAJAS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\frmPROC_TrasnfCajas_ID.Designer.vb">
+      <DependentUpon>frmPROC_TrasnfCajas_ID.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frmPROC_TrasnfCajas_ID.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\frmPROC_ViscerasRojas.designer.vb">
+      <DependentUpon>frmPROC_ViscerasRojas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frmPROC_ViscerasRojas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\frmPROC_ViscerasVerdes.designer.vb">
+      <DependentUpon>frmPROC_ViscerasVerdes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frmPROC_ViscerasVerdes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\frmRevisionCajas.Designer.vb">
+      <DependentUpon>frmRevisionCajas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frmRevisionCajas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\FRM_PROGRAMA_SACRIFICIO.Designer.vb">
+      <DependentUpon>FRM_PROGRAMA_SACRIFICIO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\FRM_PROGRAMA_SACRIFICIO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\MenuLiveStock.Designer.vb">
+      <DependentUpon>MenuLiveStock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\MenuLiveStock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utilerias\FrmAbrirCerrarCorte.Designer.vb">
+      <DependentUpon>FrmAbrirCerrarCorte.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Utilerias\FrmAbrirCerrarCorte.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utilerias\frmGenerarArchivos.Designer.vb">
+      <DependentUpon>frmGenerarArchivos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Utilerias\frmGenerarArchivos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utilerias\frmMisc_1.Designer.vb">
+      <DependentUpon>frmMisc_1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Utilerias\frmMisc_1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utilerias\frmUTIL_Contrasena.designer.vb">
+      <DependentUpon>frmUTIL_Contrasena.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Utilerias\frmUTIL_Contrasena.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Busquedas\frmBusInsumos.resx">
+      <DependentUpon>frmBusInsumos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Busquedas\frmBusProdListaPrec.resx">
+      <DependentUpon>frmBusProdListaPrec.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Busquedas\frmBusProveedor.resx">
+      <DependentUpon>frmBusProveedor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Busquedas\frmBusqueda.resx">
+      <DependentUpon>frmBusqueda.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Busquedas\frmBusquedaCortes.resx">
+      <DependentUpon>frmBusquedaCortes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Busquedas\fRM_BUSQUEDA_PS.resx">
+      <DependentUpon>fRM_BUSQUEDA_PS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Busquedas\FRM_BUS_SOSPECHOSOS.resx">
+      <DependentUpon>FRM_BUS_SOSPECHOSOS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Catalogos\frmCAT_ClasificacionExp.resx">
+      <DependentUpon>frmCAT_ClasificacionExp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Catalogos\frmCAT_Clientes.resx">
+      <DependentUpon>frmCAT_Clientes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Catalogos\frmCAT_Especies.resx">
+      <DependentUpon>frmCAT_Especies.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Catalogos\frmCAT_Familias.resx">
+      <DependentUpon>frmCAT_Familias.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Catalogos\frmCAT_INSUMOS.resx">
+      <DependentUpon>frmCAT_INSUMOS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Catalogos\frmCAT_MarcasVehiculos.resx">
+      <DependentUpon>frmCAT_MarcasVehiculos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Catalogos\frmCAT_Productos.resx">
+      <DependentUpon>frmCAT_Productos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Catalogos\frmCAT_ProductosCte.resx">
+      <DependentUpon>frmCAT_ProductosCte.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Catalogos\frmCAT_Subfamilias.resx">
+      <DependentUpon>frmCAT_Subfamilias.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Catalogos\frmCAT_TipoGanado.resx">
+      <DependentUpon>frmCAT_TipoGanado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Catalogos\frmCAT_TiposVehiculo.resx">
+      <DependentUpon>frmCAT_TiposVehiculo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuraciones\frmCONFIG_Permisos_Validaciones.resx">
+      <DependentUpon>frmCONFIG_Permisos_Validaciones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\crptReportes\crpCONS_INVENTARIOCAJASXINTR.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crpCONS_INVENTARIOCAJASXINTR.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\crptReportes\crpCONS_REL_MERMA_CANALES.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crpCONS_REL_MERMA_CANALES.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\crptReportes\crptConcentradoRendimientos.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crptConcentradoRendimientos.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\crptReportes\crptConsConcentradorendimientogral.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crptConsConcentradorendimientogral.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\crptReportes\crptConsVerficacion.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crptConsVerficacion.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\crptReportes\crptCONS_PCC1B.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crptCONS_PCC1B.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\crptReportes\crptGraficaSacrificio.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crptGraficaSacrificio.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\crptReportes\crptMERMA_GRASAHUESO.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crptMERMA_GRASAHUESO.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\crptReportes\crptMP_NATURAL.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crptMP_NATURAL.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\crptReportes\crptPedidos.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crptPedidos.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\crptReportes\crptReporte_Verificacion_corte.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crptReporte_Verificacion_corte.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\crptReportes\crptREP_Packing_List.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crptREP_Packing_List.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\crptReportes\crptREP_Packing_List_Classification.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crptREP_Packing_List_Classification.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\crptReportes\crptREP_Packing_List_Lot.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crptREP_Packing_List_Lot.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\crptReportes\crptREP_RelacionSalidasCajas.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crptREP_RelacionSalidasCajas.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\crptReportes\crptREP_RelacionSalidasCajas_Det.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crptREP_RelacionSalidasCajas_Det.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\crptReportes\crptSUBREP_EstudioCorteMP.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crptSUBREP_EstudioCorteMP.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\crptReportes\crptSUB_CONS_PCC1B.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crptSUB_CONS_PCC1B.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\crptReportes\crpt_CONS_DETALLADO_HORA.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crpt_CONS_DETALLADO_HORA.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\crptReportes\crpt_IMP_ETIQ_PROD.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crpt_IMP_ETIQ_PROD.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\crptReportes\crpt_IMP_ETIQ_BAFAR.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crpt_IMP_ETIQ_BAFAR.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\crptReportes\crpt_IMP_ETIQ_EXP.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crpt_IMP_ETIQ_EXP.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\crptReportes\crpt_VERICAR_CORTE.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crpt_VERICAR_CORTE.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\crptReportes\crpt_MEJORADO.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crpt_MEJORADO.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\FrmConsGrafica.resx">
+      <DependentUpon>FrmConsGrafica.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\frmCONS_EntradaGanadoEnPie.resx">
+      <DependentUpon>frmCONS_EntradaGanadoEnPie.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\frmCONS_EntradaPieles.resx">
+      <DependentUpon>frmCONS_EntradaPieles.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\frmCONS_EntradaSacrificio.resx">
+      <DependentUpon>frmCONS_EntradaSacrificio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\frmCONS_EntradasVehiculos.resx">
+      <DependentUpon>frmCONS_EntradasVehiculos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\frmCONS_EntradaVisceras.resx">
+      <DependentUpon>frmCONS_EntradaVisceras.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\frmCONS_GanadoEnPie.resx">
+      <DependentUpon>frmCONS_GanadoEnPie.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\frmCONS_InventarioCajas.resx">
+      <DependentUpon>frmCONS_InventarioCajas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\frmCONS_InventarioCanales.resx">
+      <DependentUpon>frmCONS_InventarioCanales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\frmCONS_InventarioPieles.resx">
+      <DependentUpon>frmCONS_InventarioPieles.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\frmCONS_InventarioVisceras.resx">
+      <DependentUpon>frmCONS_InventarioVisceras.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\frmCONS_INVENTARIOXINTR.resx">
+      <DependentUpon>frmCONS_INVENTARIOXINTR.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\frmCONS_MEAT.resx">
+      <DependentUpon>frmCONS_MEAT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\frmCONS_Mermagrasahueso.resx">
+      <DependentUpon>frmCONS_Mermagrasahueso.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\frmCONS_Movimiento_EntSal.resx">
+      <DependentUpon>frmCONS_Movimiento_EntSal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\frmCONS_PCC1B.resx">
+      <DependentUpon>frmCONS_PCC1B.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\frmCONS_Pieles.resx">
+      <DependentUpon>frmCONS_Pieles.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\frmCONS_RelacionCortes.resx">
+      <DependentUpon>frmCONS_RelacionCortes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\frmCONS_RelacionEntradaCajas.resx">
+      <DependentUpon>frmCONS_RelacionEntradaCajas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\frmCONS_RelacionGanadoEnPie.resx">
+      <DependentUpon>frmCONS_RelacionGanadoEnPie.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\frmCONS_RelacionSalidaCajas.resx">
+      <DependentUpon>frmCONS_RelacionSalidaCajas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\frmCONS_RelacionSalidaCajas_Det.resx">
+      <DependentUpon>frmCONS_RelacionSalidaCajas_Det.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\frmCONS_RelacionSalidaCanales.resx">
+      <DependentUpon>frmCONS_RelacionSalidaCanales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\frmCONS_RelacionSalidaPieles.resx">
+      <DependentUpon>frmCONS_RelacionSalidaPieles.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\frmCONS_RELACION_MERMAS_CANALES.resx">
+      <DependentUpon>frmCONS_RELACION_MERMAS_CANALES.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\frmCONS_Sacrificio.resx">
+      <DependentUpon>frmCONS_Sacrificio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\frmCONS_SalidaVisceras.resx">
+      <DependentUpon>frmCONS_SalidaVisceras.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\crptReportes\crptCAT_Clientes.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crptCAT_Clientes.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\crptReportes\crptCAT_EntradaIndividual.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crptCAT_EntradaIndividual.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\crptReportes\crptCAT_EntradaIndividualTodo.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crptCAT_EntradaIndividualTodo.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\crptReportes\crptCAT_Entradas.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crptCAT_Entradas.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\crptReportes\crptCAT_Especies.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crptCAT_Especies.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\crptReportes\crptCAT_Familias.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crptCAT_Familias.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\crptReportes\crptCAT_MarcasVehiculo.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crptCAT_MarcasVehiculo.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\crptReportes\crptCAT_Productos.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crptCAT_Productos.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\crptReportes\crptCAT_Subfamilias.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crptCAT_Subfamilias.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\crptReportes\crptCAT_TipoGanado.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crptCAT_TipoGanado.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\crptReportes\crptCAT_TiposVehiculo.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crptCAT_TiposVehiculo.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\crptReportes\crptCONS_Canales_Entrada.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crptCONS_Canales_Entrada.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\crptReportes\crptCONS_Cobranza_Canales.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crptCONS_Cobranza_Canales.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\crptReportes\crptCONS_Cobranza_GanadoPie.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crptCONS_Cobranza_GanadoPie.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\crptReportes\crptCONS_RendimientoSacrificio.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crptCONS_RendimientoSacrificio.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\crptReportes\crptCONS_RendimientoSacrificio_SubRepPieCanal.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crptCONS_RendimientoSacrificio_SubRepPieCanal.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\crptReportes\crptCONS_SalidaCajas.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crptCONS_SalidaCajas.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\crptReportes\crptINV_Cajas.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crptINV_Cajas.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\crptReportes\crptINV_Cajas_Resumen.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crptINV_Cajas_Resumen.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\crptReportes\crptINV_Canales.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crptINV_Canales.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\crptReportes\crptINV_EntSal.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crptINV_EntSal1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\crptReportes\crptREP_EstudioCorte.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crptREP_EstudioCorte.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\crptReportes\crptREP_RelacionCortes.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crptREP_RelacionCortes.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\crptReportes\crptREP_RelacionSalidasCanal.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crptREP_RelacionSalidasCanal.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\crptReportes\crptREP_SalidaDeCanales.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crptREP_SalidaDeCanales.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\crptReportes\crtpCONS_RendimientoSacrificio_SubRepCanales.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crtpCONS_RendimientoSacrificio_SubRepCanales.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\crptReportes\crtpCONS_RendimientoSacrificio_SubRepGanPie.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crtpCONS_RendimientoSacrificio_SubRepGanPie.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\crptReportes\crtpCONS_RendimientoSacrificio_SubRepPieles.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crtpCONS_RendimientoSacrificio_SubRepPieles.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\crptReportes\crtpCONS_RendimientoSacrificio_SubRepVisceras.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crtpCONS_RendimientoSacrificio_SubRepVisceras.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\crptReportes\frmCRViewer.resx">
+      <DependentUpon>frmCRViewer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\frmPedidos.resx">
+      <DependentUpon>frmPedidos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\frmSuccess.resx">
+      <DependentUpon>frmSuccess.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\frmWarning.resx">
+      <DependentUpon>frmWarning.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\FRM_REV_CALIDAD.resx">
+      <DependentUpon>FRM_REV_CALIDAD.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_MENU_PRINCIPAL.resx">
+      <DependentUpon>FRM_MENU_PRINCIPAL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventarios\fmrPROC_COMPRAS_INSUMOS.resx">
+      <DependentUpon>fmrPROC_COMPRAS_INSUMOS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventarios\frmCONS_KardexCaja.resx">
+      <DependentUpon>frmCONS_KardexCaja.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventarios\frmCONS_KardexCaja_Producto.resx">
+      <DependentUpon>frmCONS_KardexCaja_Producto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventarios\frmCONS_RegistroInventario.resx">
+      <DependentUpon>frmCONS_RegistroInventario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventarios\frmCONS_RelacionInventarios.resx">
+      <DependentUpon>frmCONS_RelacionInventarios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventarios\frmINV_AjusteDeInventario.resx">
+      <DependentUpon>frmINV_AjusteDeInventario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventarios\frmINV_Registro.resx">
+      <DependentUpon>frmINV_Registro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventarios\frmPROC_COSTEO.resx">
+      <DependentUpon>frmPROC_COSTEO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mdiPrincipal.resx">
+      <DependentUpon>mdiPrincipal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\frmEntradaVehiculos.resx">
+      <DependentUpon>frmEntradaVehiculos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\frmKPI_INGESTA.resx">
+      <DependentUpon>frmKPI_INGESTA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\frmListaPrecios.resx">
+      <DependentUpon>frmListaPrecios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\frmOrdenProduccionPie.resx">
+      <DependentUpon>frmOrdenProduccionPie.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\frmOrdenSacrificio.resx">
+      <DependentUpon>frmOrdenSacrificio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\frmPROC_EntradaCajas_xDev.resx">
+      <DependentUpon>frmPROC_EntradaCajas_xDev.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\frmPROC_EntradaProdTransf.resx">
+      <DependentUpon>frmPROC_EntradaProdTransf.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\frmPROC_GanadoEnPie.resx">
+      <DependentUpon>frmPROC_GanadoEnPie.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\frmPROC_MERMA_GH.resx">
+      <DependentUpon>frmPROC_MERMA_GH.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\frmPROC_Pieles.resx">
+      <DependentUpon>frmPROC_Pieles.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\frmPROC_ProduccionCortes.resx">
+      <DependentUpon>frmPROC_ProduccionCortes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\frmPROC_ProgramacionCorte.resx">
+      <DependentUpon>frmPROC_ProgramacionCorte.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\frmPROC_ReetiquetarCajas.resx">
+      <DependentUpon>frmPROC_ReetiquetarCajas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\frmPROC_SacrificioSospechos.resx">
+      <DependentUpon>frmPROC_SacrificioSospechos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\frmPROC_Sacrificio.resx">
+      <DependentUpon>frmPROC_Sacrificio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\frmPROC_SalidaCajas.resx">
+      <DependentUpon>frmPROC_SalidaCajas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\frmPROC_SalidaCajas_xID.resx">
+      <DependentUpon>frmPROC_SalidaCajas_xID.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\frmPROC_SalidaCanales.resx">
+      <DependentUpon>frmPROC_SalidaCanales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\frmPROC_SalidaCanales_xID.resx">
+      <DependentUpon>frmPROC_SalidaCanales_xID.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\frmPROC_SalidaCanales_x_Transformacion.resx">
+      <DependentUpon>frmPROC_SalidaCanales_x_Transformacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\frmPROC_Salida_Pieles.resx">
+      <DependentUpon>frmPROC_Salida_Pieles.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\frmPROC_Salida_Visceras.resx">
+      <DependentUpon>frmPROC_Salida_Visceras.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\frmPROC_Salida_ViscerasDecomisos.resx">
+      <DependentUpon>frmPROC_Salida_ViscerasDecomisos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\frmPROC_TRANSF_CAJAS.resx">
+      <DependentUpon>frmPROC_TRANSF_CAJAS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\frmPROC_TrasnfCajas_ID.resx">
+      <DependentUpon>frmPROC_TrasnfCajas_ID.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\frmPROC_ViscerasRojas.resx">
+      <DependentUpon>frmPROC_ViscerasRojas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\frmPROC_ViscerasVerdes.resx">
+      <DependentUpon>frmPROC_ViscerasVerdes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\frmRevisionCajas.resx">
+      <DependentUpon>frmRevisionCajas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\FRM_PROGRAMA_SACRIFICIO.resx">
+      <DependentUpon>FRM_PROGRAMA_SACRIFICIO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\MenuLiveStock.resx">
+      <DependentUpon>MenuLiveStock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utilerias\FrmAbrirCerrarCorte.resx">
+      <DependentUpon>FrmAbrirCerrarCorte.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utilerias\frmGenerarArchivos.resx">
+      <DependentUpon>frmGenerarArchivos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utilerias\frmMisc_1.resx">
+      <DependentUpon>frmMisc_1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utilerias\frmUTIL_Contrasena.resx">
+      <DependentUpon>frmUTIL_Contrasena.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DataSets\dsCatalogos.xsc">
+      <DependentUpon>dsCatalogos.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\dsCatalogos.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>dsCatalogos1.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSets\dsCatalogos.xss">
+      <DependentUpon>dsCatalogos.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\dsMovimientos.xsc">
+      <DependentUpon>dsMovimientos.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\dsMovimientos.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>dsMovimientos.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSets\dsMovimientos.xss">
+      <DependentUpon>dsMovimientos.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\dsMP.xsc">
+      <DependentUpon>dsMP.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\dsMP.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsMP.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSets\dsMP.xss">
+      <DependentUpon>dsMP.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\dsSacrificio.xsc">
+      <DependentUpon>dsSacrificio.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\dsSacrificio.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSets\dsSacrificio.xss">
+      <DependentUpon>dsSacrificio.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\dsCajas.xsc">
+      <DependentUpon>dsCajas.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\dsCajas.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsCajas.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSets\dsCajas.xss">
+      <DependentUpon>dsCajas.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\dsInventarios.xsc">
+      <DependentUpon>dsInventarios.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\dsInventarios.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>dsInventarios1.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSets\dsInventarios.xss">
+      <DependentUpon>dsInventarios.xsd</DependentUpon>
+    </None>
+    <None Include="dsBusCortes.xsc">
+      <DependentUpon>dsBusCortes.xsd</DependentUpon>
+    </None>
+    <None Include="dsBusCortes.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsBusCortes.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsBusCortes.xss">
+      <DependentUpon>dsBusCortes.xsd</DependentUpon>
+    </None>
+    <None Include="dsENTSALDET_TMP.xsc">
+      <DependentUpon>dsENTSALDET_TMP.xsd</DependentUpon>
+    </None>
+    <None Include="dsENTSALDET_TMP.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsENTSALDET_TMP.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsENTSALDET_TMP.xss">
+      <DependentUpon>dsENTSALDET_TMP.xsd</DependentUpon>
+    </None>
+    <None Include="dsMERMA_GH.xsc">
+      <DependentUpon>dsMERMA_GH.xsd</DependentUpon>
+    </None>
+    <None Include="dsMERMA_GH.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsMERMA_GH.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsMERMA_GH.xss">
+      <DependentUpon>dsMERMA_GH.xsd</DependentUpon>
+    </None>
+    <None Include="DS_BUSINSUMOS.xsc">
+      <DependentUpon>DS_BUSINSUMOS.xsd</DependentUpon>
+    </None>
+    <None Include="DS_BUSINSUMOS.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_BUSINSUMOS.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DS_BUSINSUMOS.xss">
+      <DependentUpon>DS_BUSINSUMOS.xsd</DependentUpon>
+    </None>
+    <None Include="DS_BUS_PROD_CTE.xsc">
+      <DependentUpon>DS_BUS_PROD_CTE.xsd</DependentUpon>
+    </None>
+    <None Include="DS_BUS_PROD_CTE.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_BUS_PROD_CTE.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DS_BUS_PROD_CTE.xss">
+      <DependentUpon>DS_BUS_PROD_CTE.xsd</DependentUpon>
+    </None>
+    <None Include="DS_CATINSUMOS.xsc">
+      <DependentUpon>DS_CATINSUMOS.xsd</DependentUpon>
+    </None>
+    <None Include="DS_CATINSUMOS.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_CATINSUMOS.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DS_CATINSUMOS.xss">
+      <DependentUpon>DS_CATINSUMOS.xsd</DependentUpon>
+    </None>
+    <None Include="DS_ENTSAL_DET_MEJ.xsc">
+      <DependentUpon>DS_ENTSAL_DET_MEJ.xsd</DependentUpon>
+    </None>
+    <None Include="DS_ENTSAL_DET_MEJ.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_ENTSAL_DET_MEJ.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DS_ENTSAL_DET_MEJ.xss">
+      <DependentUpon>DS_ENTSAL_DET_MEJ.xsd</DependentUpon>
+    </None>
+    <None Include="DS_LISTA_PRECIOS.xsc">
+      <DependentUpon>DS_LISTA_PRECIOS.xsd</DependentUpon>
+    </None>
+    <None Include="DS_LISTA_PRECIOS.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_LISTA_PRECIOS.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DS_LISTA_PRECIOS.xss">
+      <DependentUpon>DS_LISTA_PRECIOS.xsd</DependentUpon>
+    </None>
+    <None Include="DS_LOTE_PROCESABLE.xsc">
+      <DependentUpon>DS_LOTE_PROCESABLE.xsd</DependentUpon>
+    </None>
+    <None Include="DS_LOTE_PROCESABLE.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_LOTE_PROCESABLE.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DS_LOTE_PROCESABLE.xss">
+      <DependentUpon>DS_LOTE_PROCESABLE.xsd</DependentUpon>
+    </None>
+    <None Include="DS_PCC1B.xsc">
+      <DependentUpon>DS_PCC1B.xsd</DependentUpon>
+    </None>
+    <None Include="DS_PCC1B.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_PCC1B.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DS_PCC1B.xss">
+      <DependentUpon>DS_PCC1B.xsd</DependentUpon>
+    </None>
+    <None Include="DS_PROG_SACRI.xsc">
+      <DependentUpon>DS_PROG_SACRI.xsd</DependentUpon>
+    </None>
+    <None Include="DS_PROG_SACRI.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_PROG_SACRI.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DS_PROG_SACRI.xss">
+      <DependentUpon>DS_PROG_SACRI.xsd</DependentUpon>
+    </None>
+    <None Include="ds_Proveedores.xsc">
+      <DependentUpon>ds_Proveedores.xsd</DependentUpon>
+    </None>
+    <None Include="ds_Proveedores.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_Proveedores.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ds_Proveedores.xss">
+      <DependentUpon>ds_Proveedores.xsd</DependentUpon>
+    </None>
+    <None Include="DS_SOSPECHOSOS.xsc">
+      <DependentUpon>DS_SOSPECHOSOS.xsd</DependentUpon>
+    </None>
+    <None Include="DS_SOSPECHOSOS.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_SOSPECHOSOS.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DS_SOSPECHOSOS.xss">
+      <DependentUpon>DS_SOSPECHOSOS.xsd</DependentUpon>
+    </None>
+    <None Include="DS_TMPCOMPRAS.xsc">
+      <DependentUpon>DS_TMPCOMPRAS.xsd</DependentUpon>
+    </None>
+    <None Include="DS_TMPCOMPRAS.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_TMPCOMPRAS.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DS_TMPCOMPRAS.xss">
+      <DependentUpon>DS_TMPCOMPRAS.xsd</DependentUpon>
+    </None>
+    <None Include="DS_TMP_LISTA_PRECIOS.xsc">
+      <DependentUpon>DS_TMP_LISTA_PRECIOS.xsd</DependentUpon>
+    </None>
+    <None Include="DS_TMP_LISTA_PRECIOS.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_TMP_LISTA_PRECIOS.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DS_TMP_LISTA_PRECIOS.xss">
+      <DependentUpon>DS_TMP_LISTA_PRECIOS.xsd</DependentUpon>
+    </None>
+    <None Include="DS_VERFICAR_cAJAS.xsc">
+      <DependentUpon>DS_VERFICAR_cAJAS.xsd</DependentUpon>
+    </None>
+    <None Include="DS_VERFICAR_cAJAS.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_VERFICAR_cAJAS.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DS_VERFICAR_cAJAS.xss">
+      <DependentUpon>DS_VERFICAR_cAJAS.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="SistemaTIF_1_TemporaryKey.pfx" />
+    <None Include="SistemaTIF_3_TemporaryKey.pfx" />
+    <None Include="SistemaTIF_4_TemporaryKey.pfx" />
+    <None Include="SistemaTIF_5_TemporaryKey.pfx" />
+    <None Include="SistemaTIF_6_TemporaryKey.pfx" />
+    <None Include="SistemaTIF_ClaveTemporal.pfx" />
+    <None Include="SistemaTIF_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cancelar.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eliminar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Guardar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imprimir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backgroundWhite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="CrystalDecisions.CrystalReports.Engine">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.ClientDoc">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.CommLayer">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.CommonControls">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.CommonObjectModel">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.Controllers">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.CubeDefModel">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.DataDefModel">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.DataSetConversion">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.ObjectFactory">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.Prompting">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.ReportDefModel">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.XmlSerialize">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportSource">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.Shared">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.Windows.Forms">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevComponents.DotNetBar2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.Data.v15.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.Office.v15.2.Core">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.Pdf.v15.2.Core">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.Pdf.v15.2.Drawing">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.Printing.v15.2.Core">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.RichEdit.v15.2.Core">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.Sparkline.v15.2.Core">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.Utils.v15.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraBars.v15.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraEditors.v15.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraGrid.v15.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraLayout.v15.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraPrinting.v15.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraTreeList.v15.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="de\DevExpress.Data.v15.2.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="de\DevExpress.Office.v15.2.Core.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="de\DevExpress.Pdf.v15.2.Core.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="de\DevExpress.Printing.v15.2.Core.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="de\DevExpress.RichEdit.v15.2.Core.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="de\DevExpress.Sparkline.v15.2.Core.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="de\DevExpress.Utils.v15.2.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="de\DevExpress.XtraBars.v15.2.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="de\DevExpress.XtraEditors.v15.2.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="de\DevExpress.XtraGrid.v15.2.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="de\DevExpress.XtraLayout.v15.2.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="de\DevExpress.XtraPrinting.v15.2.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="de\DevExpress.XtraTreeList.v15.2.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="es\DevExpress.Data.v15.2.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="es\DevExpress.Office.v15.2.Core.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="es\DevExpress.Pdf.v15.2.Core.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="es\DevExpress.Printing.v15.2.Core.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="es\DevExpress.RichEdit.v15.2.Core.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="es\DevExpress.Sparkline.v15.2.Core.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="es\DevExpress.Utils.v15.2.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="es\DevExpress.XtraBars.v15.2.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="es\DevExpress.XtraEditors.v15.2.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="es\DevExpress.XtraGrid.v15.2.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="es\DevExpress.XtraLayout.v15.2.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="es\DevExpress.XtraPrinting.v15.2.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="es\DevExpress.XtraTreeList.v15.2.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="FlashControlV71">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="ja\DevExpress.Data.v15.2.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="ja\DevExpress.Office.v15.2.Core.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="ja\DevExpress.Pdf.v15.2.Core.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="ja\DevExpress.Printing.v15.2.Core.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="ja\DevExpress.RichEdit.v15.2.Core.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="ja\DevExpress.Sparkline.v15.2.Core.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="ja\DevExpress.Utils.v15.2.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="ja\DevExpress.XtraBars.v15.2.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="ja\DevExpress.XtraEditors.v15.2.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="ja\DevExpress.XtraGrid.v15.2.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="ja\DevExpress.XtraLayout.v15.2.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="ja\DevExpress.XtraPrinting.v15.2.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="ja\DevExpress.XtraTreeList.v15.2.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="log4net">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="ru\DevExpress.Data.v15.2.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="ru\DevExpress.Office.v15.2.Core.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="ru\DevExpress.Pdf.v15.2.Core.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="ru\DevExpress.Printing.v15.2.Core.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="ru\DevExpress.RichEdit.v15.2.Core.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="ru\DevExpress.Sparkline.v15.2.Core.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="ru\DevExpress.Utils.v15.2.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="ru\DevExpress.XtraBars.v15.2.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="ru\DevExpress.XtraEditors.v15.2.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="ru\DevExpress.XtraGrid.v15.2.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="ru\DevExpress.XtraLayout.v15.2.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="ru\DevExpress.XtraPrinting.v15.2.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="ru\DevExpress.XtraTreeList.v15.2.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="ShockwaveFlashObjects">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bascula4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new doc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inbox_download.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print_printer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reload_page.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Print.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\New_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Action_Save_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Action_New_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Action_Refresh_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Action_Chart_Printing_Preview_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Action_Printing_Print.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Action_Printing_Print_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beef foot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beef skin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beef cuts.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beef liver.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\compraganado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cuero.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconobase.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\metro_search_11261.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
