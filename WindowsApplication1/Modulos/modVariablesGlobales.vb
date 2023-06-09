@@ -8,7 +8,7 @@
 
     Public Cnn As SqlClient.SqlConnection
     ' Public ConnectionString As String = "Data Source=SERVERTIF651VM\COMPAC18;Initial Catalog=TIF651;user id=sa;password=abc123."
-    Public ConnectionString As String = "Data Source=SISTEMAS\VENTAS;Initial Catalog=TIF651;user id=sa;password=abc123."
+    Public ConnectionString As String = "Data Source=DIRGRAL\DESARROLLO;Initial Catalog=TIFMAZATLAN;user id=sa;password=Javi3r2606!"
     Public Const FactorLibras As Double = 2.20466
     Public gTIF As String = ""
     Public gVersionWindows As String = ""

@@ -844,7 +844,7 @@ Public Class frmPROC_SacrificioSospechos
         Dim bPS As New fRM_BUSQUEDA_PS(Me.dtpFechaMov.Value)
         bPS.ShowDialog()
         If bPS.DataGridView1.Rows.Count > 0 Then
-            If bPS.DialogResult = Windows.Forms.DialogResult.OK Then
+            If bPS.DialogResult = DialogResult.OK Then
                 Me.txtLote.Text = bPS.DS_PROG_SACRI.SACRIFICIO(bPS.SACRIFICIOBindingSource.Position).SAC_LOTE
             End If
         End If

@@ -63,7 +63,7 @@ Public Class frmCONS_MEAT
             Dim bPS As New fRM_BUSQUEDA_PS(Me.dtpfecha.Value)
             bPS.ShowDialog()
             If bPS.DataGridView1.Rows.Count > 0 Then
-                If bPS.DialogResult = Windows.Forms.DialogResult.OK Then
+                If bPS.DialogResult = DialogResult.OK Then
                     Me.TXTLOTE.Text = bPS.DS_PROG_SACRI.SACRIFICIO(bPS.SACRIFICIOBindingSource.Position).SAC_LOTE
                 End If
             End If
@@ -73,7 +73,7 @@ Public Class frmCONS_MEAT
     End Sub
 
     Private Sub SimpleButton2_Click(sender As Object, e As EventArgs) Handles SimpleButton2.Click
-        If SaveFileDialog1.ShowDialog(Me) = Windows.Forms.DialogResult.OK Then
+        If SaveFileDialog1.ShowDialog(Me) = DialogResult.OK Then
 
             GridControl1.ExportToXls(SaveFileDialog1.FileName)
 
@@ -81,7 +81,7 @@ Public Class frmCONS_MEAT
     End Sub
 
     Private Sub SimpleButton3_Click(sender As Object, e As EventArgs) Handles SimpleButton3.Click
-        If SaveFileDialog1.ShowDialog(Me) = Windows.Forms.DialogResult.OK Then
+        If SaveFileDialog1.ShowDialog(Me) = DialogResult.OK Then
 
             GridControl1.ExportToXls(SaveFileDialog2.FileName)
 

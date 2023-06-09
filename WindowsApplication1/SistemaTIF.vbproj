@@ -68,10 +68,10 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>02DF5D95D55C066553F8C54EC671E6D95D299C09</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>7A588D8F1F98EA09DF51E2CD2B1A3308CB7D4D72</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>SistemaTIF_6_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>SistemaTIF_7_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <GenerateManifests>true</GenerateManifests>
@@ -84,7 +84,10 @@
     <Reference Include="CrystalDecisions.ReportSource, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
     <Reference Include="CrystalDecisions.Shared, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
     <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
-    <Reference Include="DevComponents.DotNetBar2, Version=10.9.0.1, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL" />
+    <Reference Include="DevComponents.DotNetBar2, Version=11.3.0.0, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\dll\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
     <Reference Include="DevExpress.Data.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Pdf.v19.1.Core, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Office.v19.1.Core, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
@@ -789,11 +792,6 @@
       <DependentUpon>dsMP.xsd</DependentUpon>
     </Compile>
     <Compile Include="DataSets\dsSacrificio.Designer.vb">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>dsSacrificio.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="DataSets\dsSacrificio2.Designer.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>dsSacrificio.xsd</DependentUpon>
@@ -1731,9 +1729,6 @@
       <SubType>Designer</SubType>
       <LastGenOutput>dsSacrificio.Designer.vb</LastGenOutput>
     </None>
-    <None Include="DataSets\dsSacrificio.xss">
-      <DependentUpon>dsSacrificio.xsd</DependentUpon>
-    </None>
     <None Include="DataSets\dsCajas.xsc">
       <DependentUpon>dsCajas.xsd</DependentUpon>
     </None>
@@ -1947,6 +1942,7 @@
     <None Include="SistemaTIF_4_TemporaryKey.pfx" />
     <None Include="SistemaTIF_5_TemporaryKey.pfx" />
     <None Include="SistemaTIF_6_TemporaryKey.pfx" />
+    <None Include="SistemaTIF_7_TemporaryKey.pfx" />
     <None Include="SistemaTIF_ClaveTemporal.pfx" />
     <None Include="SistemaTIF_TemporaryKey.pfx" />
   </ItemGroup>
@@ -2919,6 +2915,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\metro_search_11261.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cancel_32x32.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

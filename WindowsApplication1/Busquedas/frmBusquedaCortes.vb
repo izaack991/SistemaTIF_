@@ -8,7 +8,7 @@
     End Sub
 
     Private Sub btnaceptar_Click(sender As Object, e As EventArgs) Handles btnaceptar.Click
-        DialogResult = Windows.Forms.DialogResult.OK
+        DialogResult = DialogResult.OK
     End Sub
 
     Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles TextBox1.TextChanged
@@ -18,6 +18,6 @@
     End Sub
 
     Private Sub btncancelar_Click(sender As Object, e As EventArgs) Handles btncancelar.Click
-        Me.DialogResult = Windows.Forms.DialogResult.Cancel
+        Me.DialogResult = DialogResult.Cancel
     End Sub
 End Class

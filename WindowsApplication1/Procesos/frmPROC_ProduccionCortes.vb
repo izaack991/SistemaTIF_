@@ -549,8 +549,8 @@ Public Class frmPROC_ProduccionCortes
                     End If
                 End If
             Else
-                If MessageBox.Show("La caja es mayor a 45 kg esta seguro que desea agregarla?", "", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2) = Windows.Forms.DialogResult.Yes Then
-                    If MessageBox.Show("La caja pesa arriba del promedio estas seguro?", "", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2) = Windows.Forms.DialogResult.Yes Then
+                If MessageBox.Show("La caja es mayor a 45 kg esta seguro que desea agregarla?", "", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2) = DialogResult.Yes Then
+                    If MessageBox.Show("La caja pesa arriba del promedio estas seguro?", "", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2) = DialogResult.Yes Then
                         If oMovimientoEntSal.Guardar(lMensajeResultado, lId_ESC) Then
                             If Me.CHKMEJORADO.Checked = True Then
                                 Dim lCmd As New SqlClient.SqlCommand

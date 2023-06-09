@@ -38,7 +38,7 @@ Public Class frmListaPrecios
         If e.KeyCode = Keys.F2 Then
             Dim B As New frmBusProveedor()
             B.ShowDialog()
-            If B.DialogResult = Windows.Forms.DialogResult.OK Then
+            If B.DialogResult = DialogResult.OK Then
                 If B.DataGridView1.RowCount > 0 Then
                     Me.TXTIDCLIENTE.Text = B.Ds_Proveedores.CLIENTES(B.CLIENTESBindingSource.Position).ID_CTE
                     Me.TXTNOCLIENTE.Text = B.Ds_Proveedores.CLIENTES(B.CLIENTESBindingSource.Position).NOMBRE
@@ -85,7 +85,7 @@ Public Class frmListaPrecios
         If e.KeyCode = Keys.F2 Then
             Dim b As New frmBusProdListaPrec(Me.TXTIDCLIENTE.Text)
             b.ShowDialog()
-            If b.DialogResult = Windows.Forms.DialogResult.OK Then
+            If b.DialogResult = DialogResult.OK Then
                 If b.DataGridView1.RowCount > 0 Then
                     Me.TXTIDINSUMO.Text = b.DS_BUS_PROD_CTE.PRODUCTOS_CTE(b.PRODUCTOSCTEBindingSource.Position).ID_PRODCTE
                     Me.sIdProd = b.DS_BUS_PROD_CTE.PRODUCTOS_CTE(b.PRODUCTOSCTEBindingSource.Position).ID_PROD

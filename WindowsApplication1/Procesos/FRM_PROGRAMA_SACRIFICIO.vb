@@ -228,12 +228,12 @@ Public Class FRM_PROGRAMA_SACRIFICIO
         End Try
         Dim success As New frmSuccess
         success.ShowDialog()
-        If success.DialogResult = Windows.Forms.DialogResult.OK Then
+        If success.DialogResult = DialogResult.OK Then
             Dim os As New frmOrdenSacrificio
             os.Show()
             Me.Close()
         End If
-        
+
     End Sub
     Private Sub llenaralmacen()
         Dim lCmd As New SqlClient.SqlCommand
@@ -487,7 +487,7 @@ Public Class FRM_PROGRAMA_SACRIFICIO
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Dim war As New frmWarning
         war.ShowDialog()
-        If war.DialogResult = Windows.Forms.DialogResult.OK Then
+        If war.DialogResult = DialogResult.OK Then
             Me.Guardar()
         End If
 
@@ -554,7 +554,7 @@ Public Class FRM_PROGRAMA_SACRIFICIO
     End Sub
 
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
-        Me.DialogResult = Windows.Forms.DialogResult.Cancel
+        Me.DialogResult = DialogResult.Cancel
         Me.Close()
         Dim os As New frmOrdenSacrificio
         os.Show()

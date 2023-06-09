@@ -106,7 +106,7 @@ Partial Class frmPROC_GanadoEnPie
         Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
         Me.btnguardarlotefecha = New System.Windows.Forms.ToolStripButton()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.Line1 = New DevComponents.DotNetBar.Controls.Line()
+        '        Me.Line1 = New DevComponents.DotNetBar.Controls.Line()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
         Me.Panel8.SuspendLayout()
@@ -916,7 +916,7 @@ Partial Class frmPROC_GanadoEnPie
         '
         Me.GroupBox2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.GroupBox2.Controls.Add(Me.Line1)
+        ' Me.GroupBox2.Controls.Add(Me.Line1)
         Me.GroupBox2.Controls.Add(Me.Label4)
         Me.GroupBox2.Controls.Add(Me.rdbHembra)
         Me.GroupBox2.Controls.Add(Me.txtNomIntroductor)
@@ -941,12 +941,12 @@ Partial Class frmPROC_GanadoEnPie
         '
         'Line1
         '
-        Me.Line1.Location = New System.Drawing.Point(219, 15)
-        Me.Line1.Name = "Line1"
-        Me.Line1.Size = New System.Drawing.Size(19, 88)
-        Me.Line1.TabIndex = 12
-        Me.Line1.Text = "Line1"
-        Me.Line1.VerticalLine = True
+        'Me.Line1.Location = New System.Drawing.Point(219, 15)
+        'Me.Line1.Name = "Line1"
+        'Me.Line1.Size = New System.Drawing.Size(19, 88)
+        'Me.Line1.TabIndex = 12
+        'Me.Line1.Text = "Line1"
+        'Me.Line1.VerticalLine = True
         '
         'Label4
         '
@@ -1063,7 +1063,7 @@ Partial Class frmPROC_GanadoEnPie
     Friend WithEvents btnguardarlotefecha As System.Windows.Forms.ToolStripButton
     Friend WithEvents GroupBox2 As System.Windows.Forms.GroupBox
     Friend WithEvents Label4 As System.Windows.Forms.Label
-    Friend WithEvents Line1 As DevComponents.DotNetBar.Controls.Line
+    'Friend WithEvents Line1 As DevComponents.DotNetBar.Controls.Line
     Friend WithEvents GroupBox3 As System.Windows.Forms.GroupBox
     Friend WithEvents SimpleButton1 As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents REN As System.Windows.Forms.DataGridViewTextBoxColumn

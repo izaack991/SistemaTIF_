@@ -8,7 +8,7 @@
     End Sub
 
     Private Sub BTNACEPTAR_Click(sender As Object, e As EventArgs) Handles BTNACEPTAR.Click
-        DialogResult = Windows.Forms.DialogResult.OK
+        DialogResult = DialogResult.OK
     End Sub
 
     Private Sub BTNCANCELAR_Click(sender As Object, e As EventArgs) Handles BTNCANCELAR.Click

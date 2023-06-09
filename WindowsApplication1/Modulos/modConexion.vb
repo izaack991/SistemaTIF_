@@ -41,10 +41,10 @@
                 'gProyecto = "SISTEMA DE CONTROL DE PRODUCCION"
 
                 ''''para conexion sql local
-                Servidor = "SISTEMAS\VENTAS"
-                BD = "TIF651"
+                Servidor = "DIRGRAL\DESARROLLO"
+                BD = "TIFMAZATLAN"
                 Usuario = "SA"
-                PWD = "abc123."
+                PWD = "Javi3r2606!"
                 gProyecto = gProyecto & " ----> PRUEBAS " & " --BD-- " & BD
 
             End If

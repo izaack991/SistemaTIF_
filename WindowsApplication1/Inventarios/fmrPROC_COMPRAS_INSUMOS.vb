@@ -34,7 +34,7 @@ Public Class fmrPROC_COMPRAS_INSUMOS
         If e.KeyCode = Keys.F2 Then
             Dim B As New frmBusProveedor()
             B.ShowDialog()
-            If B.DialogResult = Windows.Forms.DialogResult.OK Then
+            If B.DialogResult = DialogResult.OK Then
                 If B.DataGridView1.RowCount > 0 Then
                     Me.TXTIDPROV.Text = B.Ds_Proveedores.CLIENTES(B.CLIENTESBindingSource.Position).ID_CTE
                     Me.TXTNOMPROV.Text = B.Ds_Proveedores.CLIENTES(B.CLIENTESBindingSource.Position).NOMBRE
@@ -48,7 +48,7 @@ Public Class fmrPROC_COMPRAS_INSUMOS
         If e.KeyCode = Keys.F2 Then
             Dim B As New frmBusInsumos()
             B.ShowDialog()
-            If B.DialogResult = Windows.Forms.DialogResult.OK Then
+            If B.DialogResult = DialogResult.OK Then
                 If B.DataGridView1.RowCount > 0 Then
                     Me.TXTIDINSUMO.Text = B.DS_BUSINSUMOS.INSUMOS(B.INSUMOSBindingSource.Position).ID_INSUMO
                     Me.TXTNOMINSUMO.Text = B.DS_BUSINSUMOS.INSUMOS(B.INSUMOSBindingSource.Position).NOMBRE
