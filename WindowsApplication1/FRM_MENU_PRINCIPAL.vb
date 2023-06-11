@@ -4,6 +4,8 @@ Public Class FRM_MENU_PRINCIPAL
     Dim iIdUsuario As Integer
     Dim iRol As Integer
     Dim sNombre As String
+    Dim AnchoPantalla As Integer = My.Computer.Screen.Bounds.Width
+    Dim AltoPantalla As Integer = My.Computer.Screen.WorkingArea.Height
     Private Property ApplicationDeployment As Object
     Public Sub New()
 
@@ -22,6 +24,8 @@ Public Class FRM_MENU_PRINCIPAL
         ' Agregue cualquier inicialización después de la llamada a InitializeComponent().
     End Sub
     Private Sub FRM_MENU_PRINCIPAL_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+
         modConexion.Conectar()
 
         Dim lFechaVencimiento As String = "15/12/2015"
@@ -32,6 +36,13 @@ Public Class FRM_MENU_PRINCIPAL
 
         Dim lServidor As New clsServidor()
 
+        With Me
+
+            .Location = New Point(x:=0, y:=0)
+            .Height = AltoPantalla
+            .Width = AnchoPantalla
+            Me.WindowState = FormWindowState.Maximized
+        End With
         'If CDate(lServidor.FECHA) > CDate(lFechaProrroga) Then
         '    MessageBox.Show("La licencia de prueba ha expirado.", gProyecto, MessageBoxButtons.OK, MessageBoxIcon.Error)
         '    End
@@ -146,6 +157,16 @@ Public Class FRM_MENU_PRINCIPAL
     End Sub
 
     Private Sub BarButtonItem15_ItemClick(sender As Object, e As DevExpress.XtraBars.ItemClickEventArgs) Handles BarButtonItem15.ItemClick
+
+    End Sub
+
+    Private Sub BarButtonItem16_ItemClick(sender As Object, e As DevExpress.XtraBars.ItemClickEventArgs) Handles btnCatClientes.ItemClick
+        Dim pie As New frmCAT_Clientes
+        pie.MdiParent = Me
+        pie.Show()
+    End Sub
+
+    Private Sub RibbonControl_Click(sender As Object, e As EventArgs) Handles RibbonControl.Click
 
     End Sub
 End Class

@@ -112,6 +112,11 @@ SistemaControlProduccion
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:SistemaControlProduccion.My.Resources.Resources.floppy_32">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:SistemaControlProduccion.My.Resources.Resources.Guardar">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
@@ -147,6 +152,11 @@ SistemaControlProduccion
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:SistemaControlProduccion.My.Resources.Resources.NewDoc_32x32">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:SistemaControlProduccion.My.Resources.Resources.Nuevo">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
@@ -167,6 +177,11 @@ SistemaControlProduccion
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:SistemaControlProduccion.My.Resources.Resources.SalirForm">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:SistemaControlProduccion.My.Resources.Resources.Save">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
@@ -178,6 +193,16 @@ SistemaControlProduccion
 </summary>
 </member>
 <member name="P:SistemaControlProduccion.My.Resources.Resources.Search">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SistemaControlProduccion.My.Resources.Resources.UsuarioNoExiste">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SistemaControlProduccion.My.Resources.Resources.wimprimir">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>

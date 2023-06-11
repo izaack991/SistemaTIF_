@@ -37,63 +37,77 @@ Partial Class frmLogin
         '
         'UsernameTextBox
         '
+        Me.UsernameTextBox.BackColor = System.Drawing.Color.Black
         Me.UsernameTextBox.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
-        Me.UsernameTextBox.Font = New System.Drawing.Font("Segoe UI", 9.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.UsernameTextBox.Location = New System.Drawing.Point(248, 61)
+        Me.UsernameTextBox.Font = New System.Drawing.Font("Segoe UI", 18.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.UsernameTextBox.ForeColor = System.Drawing.Color.White
+        Me.UsernameTextBox.Location = New System.Drawing.Point(372, 94)
+        Me.UsernameTextBox.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.UsernameTextBox.Name = "UsernameTextBox"
-        Me.UsernameTextBox.Size = New System.Drawing.Size(211, 25)
+        Me.UsernameTextBox.Size = New System.Drawing.Size(436, 55)
         Me.UsernameTextBox.TabIndex = 0
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Segoe UI", 9.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(244, 41)
+        Me.Label1.Font = New System.Drawing.Font("Segoe UI", 18.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.White
+        Me.Label1.Location = New System.Drawing.Point(368, 31)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(59, 17)
+        Me.Label1.Size = New System.Drawing.Size(161, 48)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Usuario:"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Segoe UI", 9.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(245, 111)
+        Me.Label2.Font = New System.Drawing.Font("Segoe UI", 18.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.Color.White
+        Me.Label2.Location = New System.Drawing.Point(368, 171)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(70, 17)
+        Me.Label2.Size = New System.Drawing.Size(191, 48)
         Me.Label2.TabIndex = 3
         Me.Label2.Text = "Password:"
         '
         'PasswordTextBox
         '
+        Me.PasswordTextBox.BackColor = System.Drawing.Color.Black
         Me.PasswordTextBox.Enabled = False
-        Me.PasswordTextBox.Font = New System.Drawing.Font("Segoe UI", 9.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.PasswordTextBox.Location = New System.Drawing.Point(247, 131)
+        Me.PasswordTextBox.Font = New System.Drawing.Font("Segoe UI", 18.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.PasswordTextBox.ForeColor = System.Drawing.Color.White
+        Me.PasswordTextBox.Location = New System.Drawing.Point(372, 234)
+        Me.PasswordTextBox.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.PasswordTextBox.Name = "PasswordTextBox"
         Me.PasswordTextBox.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
-        Me.PasswordTextBox.Size = New System.Drawing.Size(211, 25)
+        Me.PasswordTextBox.Size = New System.Drawing.Size(436, 55)
         Me.PasswordTextBox.TabIndex = 2
         '
         'btnaceptar
         '
-        Me.btnaceptar.BackColor = System.Drawing.SystemColors.ActiveBorder
-        Me.btnaceptar.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnaceptar.ForeColor = System.Drawing.Color.DarkRed
-        Me.btnaceptar.Location = New System.Drawing.Point(248, 162)
+        Me.btnaceptar.BackColor = System.Drawing.Color.Green
+        Me.btnaceptar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnaceptar.Font = New System.Drawing.Font("Lucida Console", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnaceptar.ForeColor = System.Drawing.Color.White
+        Me.btnaceptar.Location = New System.Drawing.Point(370, 318)
+        Me.btnaceptar.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.btnaceptar.Name = "btnaceptar"
-        Me.btnaceptar.Size = New System.Drawing.Size(102, 32)
+        Me.btnaceptar.Size = New System.Drawing.Size(215, 81)
         Me.btnaceptar.TabIndex = 4
         Me.btnaceptar.Text = "OK"
         Me.btnaceptar.UseVisualStyleBackColor = False
         '
         'btncancelar
         '
-        Me.btncancelar.BackColor = System.Drawing.SystemColors.ActiveBorder
-        Me.btncancelar.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btncancelar.ForeColor = System.Drawing.Color.DarkRed
-        Me.btncancelar.Location = New System.Drawing.Point(356, 162)
+        Me.btncancelar.BackColor = System.Drawing.Color.Red
+        Me.btncancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btncancelar.Font = New System.Drawing.Font("Lucida Console", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btncancelar.ForeColor = System.Drawing.Color.White
+        Me.btncancelar.Location = New System.Drawing.Point(593, 318)
+        Me.btncancelar.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.btncancelar.Name = "btncancelar"
-        Me.btncancelar.Size = New System.Drawing.Size(102, 32)
+        Me.btncancelar.Size = New System.Drawing.Size(215, 81)
         Me.btncancelar.TabIndex = 5
         Me.btncancelar.Text = "CANCELAR"
         Me.btncancelar.UseVisualStyleBackColor = False
@@ -107,29 +121,32 @@ Partial Class frmLogin
         Me.Panel1.Controls.Add(Me.UsernameTextBox)
         Me.Panel1.Controls.Add(Me.Label1)
         Me.Panel1.Controls.Add(Me.PasswordTextBox)
-        Me.Panel1.Location = New System.Drawing.Point(93, 40)
+        Me.Panel1.Location = New System.Drawing.Point(140, 62)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(505, 274)
+        Me.Panel1.Size = New System.Drawing.Size(851, 478)
         Me.Panel1.TabIndex = 6
         '
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(4, 20)
+        Me.PictureBox1.Location = New System.Drawing.Point(6, 31)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(236, 220)
+        Me.PictureBox1.Size = New System.Drawing.Size(354, 338)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 6
         Me.PictureBox1.TabStop = False
         '
         'frmLogin
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(867, 443)
+        Me.BackColor = System.Drawing.Color.Black
+        Me.ClientSize = New System.Drawing.Size(1300, 682)
         Me.ControlBox = False
         Me.Controls.Add(Me.Panel1)
+        Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Name = "frmLogin"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized

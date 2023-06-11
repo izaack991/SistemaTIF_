@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TIFMAZATLANModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="CLIENTES">
+    <Key>
+      <PropertyRef Name="ID_CTE" />
+    </Key>
+    <Property Name="ID_CTE" Type="Int32" Nullable="false" />
+    <Property Name="NOMBRE" Type="String" MaxLength="60" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="MARCA" Type="String" MaxLength="6" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="DIRECCION" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="COLONIA" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="MUNICIPIO" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="ESTADO" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="EMAIL" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="TELEFONO" Type="String" MaxLength="12" FixedLength="false" Unicode="false" />
+    <Property Name="CELULAR" Type="String" MaxLength="12" FixedLength="false" Unicode="false" />
+    <Property Name="CP" Type="String" MaxLength="5" FixedLength="true" Unicode="false" />
+    <Property Name="RFC" Type="String" MaxLength="13" FixedLength="true" Unicode="false" />
+    <Property Name="ID_TCTE" Type="Int32" Nullable="false" />
+    <Property Name="ESTATUS" Type="String" MaxLength="1" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="HORA_INI" Type="Time" Precision="7" />
+    <Property Name="HORA_PED" Type="Time" Precision="7" />
+  </EntityType>
+  <EntityType Name="CUARTOS">
+    <Key>
+      <PropertyRef Name="ID_CUARTO" />
+    </Key>
+    <Property Name="ID_CUARTO" Type="Int32" Nullable="false" />
+    <Property Name="NOMBRE" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ESTATUS" Type="String" MaxLength="1" FixedLength="true" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="EMPLEADOS">
+    <Key>
+      <PropertyRef Name="IDUSUARIO" />
+    </Key>
+    <Property Name="IDUSUARIO" Type="Int32" Nullable="false" />
+    <Property Name="Nombre" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="Rfc" Type="String" MaxLength="13" FixedLength="true" Unicode="false" />
+    <Property Name="Direccion" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+    <Property Name="Telefono" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="ARL" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SERIAL" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Celular" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Fecha" Type="DateTime" Precision="3" />
+    <Property Name="Foto" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Departamento" Type="Int32" />
+    <Property Name="Status" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="ESPECIES">
+    <Key>
+      <PropertyRef Name="ID_ESPECIE" />
+    </Key>
+    <Property Name="ID_ESPECIE" Type="Int32" Nullable="false" />
+    <Property Name="NOMBRE" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ESTATUS" Type="String" MaxLength="1" FixedLength="true" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="FAMILIAS">
+    <Key>
+      <PropertyRef Name="ID_FAM" />
+    </Key>
+    <Property Name="ID_FAM" Type="Int32" Nullable="false" />
+    <Property Name="NOMBRE" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ESTATUS" Type="String" MaxLength="1" FixedLength="true" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="TIFMAZATLANEntities2" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="CLIENTES" EntityType="Self.CLIENTES" />
+    <EntitySet Name="CUARTOS" EntityType="Self.CUARTOS" />
+    <EntitySet Name="EMPLEADOS" EntityType="Self.EMPLEADOS" />
+    <EntitySet Name="ESPECIES" EntityType="Self.ESPECIES" />
+    <EntitySet Name="FAMILIAS" EntityType="Self.FAMILIAS" />
+  </EntityContainer>
+</Schema>

@@ -80,12 +80,12 @@ Partial Class frmCAT_Clientes
         Me.GroupControl1 = New DevExpress.XtraEditors.GroupControl()
         Me.GroupControl2 = New DevExpress.XtraEditors.GroupControl()
         Me.ToolStrip1 = New System.Windows.Forms.ToolStrip()
-        Me.ToolStripButton1 = New System.Windows.Forms.ToolStripButton()
-        Me.ToolStripButton2 = New System.Windows.Forms.ToolStripButton()
-        Me.ToolStripButton3 = New System.Windows.Forms.ToolStripButton()
+        Me.btnTnuevo = New System.Windows.Forms.ToolStripButton()
+        Me.BtnTguardar = New System.Windows.Forms.ToolStripButton()
+        Me.BtnTcancelar = New System.Windows.Forms.ToolStripButton()
+        Me.BtnTimprimir = New System.Windows.Forms.ToolStripButton()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.ToolStripButton4 = New System.Windows.Forms.ToolStripButton()
         Me.StatusStrip1.SuspendLayout()
         CType(Me.DsCatalogos, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.dgvCatalogo, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -164,7 +164,7 @@ Partial Class frmCAT_Clientes
         'lblEstatus
         '
         Me.lblEstatus.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblEstatus.Location = New System.Drawing.Point(191, 35)
+        Me.lblEstatus.Location = New System.Drawing.Point(185, 36)
         Me.lblEstatus.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblEstatus.Name = "lblEstatus"
         Me.lblEstatus.Size = New System.Drawing.Size(344, 38)
@@ -177,7 +177,7 @@ Partial Class frmCAT_Clientes
         '
         Me.txtRFC.BackColor = System.Drawing.SystemColors.Window
         Me.txtRFC.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtRFC.Location = New System.Drawing.Point(640, 226)
+        Me.txtRFC.Location = New System.Drawing.Point(641, 226)
         Me.txtRFC.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.txtRFC.MaxLength = 13
         Me.txtRFC.Name = "txtRFC"
@@ -188,7 +188,7 @@ Partial Class frmCAT_Clientes
         '
         Me.txtCP.BackColor = System.Drawing.SystemColors.Window
         Me.txtCP.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtCP.Location = New System.Drawing.Point(390, 184)
+        Me.txtCP.Location = New System.Drawing.Point(384, 185)
         Me.txtCP.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.txtCP.MaxLength = 5
         Me.txtCP.Name = "txtCP"
@@ -199,7 +199,7 @@ Partial Class frmCAT_Clientes
         '
         Me.txtCelular.BackColor = System.Drawing.SystemColors.Window
         Me.txtCelular.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtCelular.Location = New System.Drawing.Point(640, 179)
+        Me.txtCelular.Location = New System.Drawing.Point(641, 179)
         Me.txtCelular.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.txtCelular.MaxLength = 12
         Me.txtCelular.Name = "txtCelular"
@@ -210,7 +210,7 @@ Partial Class frmCAT_Clientes
         '
         Me.txtTelefono.BackColor = System.Drawing.SystemColors.Window
         Me.txtTelefono.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtTelefono.Location = New System.Drawing.Point(640, 133)
+        Me.txtTelefono.Location = New System.Drawing.Point(641, 133)
         Me.txtTelefono.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.txtTelefono.MaxLength = 12
         Me.txtTelefono.Name = "txtTelefono"
@@ -221,7 +221,7 @@ Partial Class frmCAT_Clientes
         '
         Me.txtEmail.BackColor = System.Drawing.SystemColors.Window
         Me.txtEmail.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtEmail.Location = New System.Drawing.Point(640, 85)
+        Me.txtEmail.Location = New System.Drawing.Point(641, 85)
         Me.txtEmail.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.txtEmail.MaxLength = 30
         Me.txtEmail.Name = "txtEmail"
@@ -232,7 +232,7 @@ Partial Class frmCAT_Clientes
         '
         Me.txtEstado.BackColor = System.Drawing.SystemColors.Window
         Me.txtEstado.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtEstado.Location = New System.Drawing.Point(390, 227)
+        Me.txtEstado.Location = New System.Drawing.Point(384, 228)
         Me.txtEstado.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.txtEstado.MaxLength = 20
         Me.txtEstado.Name = "txtEstado"
@@ -243,7 +243,7 @@ Partial Class frmCAT_Clientes
         '
         Me.txtMunicipio.BackColor = System.Drawing.SystemColors.Window
         Me.txtMunicipio.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtMunicipio.Location = New System.Drawing.Point(115, 228)
+        Me.txtMunicipio.Location = New System.Drawing.Point(109, 229)
         Me.txtMunicipio.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.txtMunicipio.MaxLength = 30
         Me.txtMunicipio.Name = "txtMunicipio"
@@ -254,7 +254,7 @@ Partial Class frmCAT_Clientes
         '
         Me.txtColonia.BackColor = System.Drawing.SystemColors.Window
         Me.txtColonia.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtColonia.Location = New System.Drawing.Point(115, 181)
+        Me.txtColonia.Location = New System.Drawing.Point(109, 182)
         Me.txtColonia.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.txtColonia.MaxLength = 30
         Me.txtColonia.Name = "txtColonia"
@@ -265,7 +265,7 @@ Partial Class frmCAT_Clientes
         '
         Me.txtDireccion.BackColor = System.Drawing.SystemColors.Window
         Me.txtDireccion.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtDireccion.Location = New System.Drawing.Point(115, 135)
+        Me.txtDireccion.Location = New System.Drawing.Point(109, 136)
         Me.txtDireccion.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.txtDireccion.MaxLength = 40
         Me.txtDireccion.Name = "txtDireccion"
@@ -276,7 +276,7 @@ Partial Class frmCAT_Clientes
         '
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(577, 231)
+        Me.Label11.Location = New System.Drawing.Point(586, 229)
         Me.Label11.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(47, 22)
@@ -287,7 +287,7 @@ Partial Class frmCAT_Clientes
         '
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(347, 188)
+        Me.Label10.Location = New System.Drawing.Point(321, 190)
         Me.Label10.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(35, 22)
@@ -298,7 +298,7 @@ Partial Class frmCAT_Clientes
         '
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(557, 185)
+        Me.Label9.Location = New System.Drawing.Point(566, 183)
         Me.Label9.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(67, 22)
@@ -309,7 +309,7 @@ Partial Class frmCAT_Clientes
         '
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(543, 138)
+        Me.Label8.Location = New System.Drawing.Point(552, 136)
         Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(81, 22)
@@ -320,7 +320,7 @@ Partial Class frmCAT_Clientes
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(564, 92)
+        Me.Label7.Location = New System.Drawing.Point(573, 90)
         Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(60, 22)
@@ -331,7 +331,7 @@ Partial Class frmCAT_Clientes
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(316, 230)
+        Me.Label6.Location = New System.Drawing.Point(290, 232)
         Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(66, 22)
@@ -375,7 +375,7 @@ Partial Class frmCAT_Clientes
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(578, 43)
+        Me.Label2.Location = New System.Drawing.Point(587, 41)
         Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(46, 22)
@@ -389,7 +389,7 @@ Partial Class frmCAT_Clientes
         Me.cmbTipoCliente.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cmbTipoCliente.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbTipoCliente.FormattingEnabled = True
-        Me.cmbTipoCliente.Location = New System.Drawing.Point(640, 41)
+        Me.cmbTipoCliente.Location = New System.Drawing.Point(641, 41)
         Me.cmbTipoCliente.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.cmbTipoCliente.Name = "cmbTipoCliente"
         Me.cmbTipoCliente.Size = New System.Drawing.Size(354, 30)
@@ -416,7 +416,7 @@ Partial Class frmCAT_Clientes
         '
         Me.txtNomCliente.BackColor = System.Drawing.SystemColors.Window
         Me.txtNomCliente.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtNomCliente.Location = New System.Drawing.Point(115, 87)
+        Me.txtNomCliente.Location = New System.Drawing.Point(109, 88)
         Me.txtNomCliente.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.txtNomCliente.MaxLength = 60
         Me.txtNomCliente.Name = "txtNomCliente"
@@ -427,7 +427,7 @@ Partial Class frmCAT_Clientes
         '
         Me.txtMarcaCliente.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.txtMarcaCliente.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtMarcaCliente.Location = New System.Drawing.Point(115, 41)
+        Me.txtMarcaCliente.Location = New System.Drawing.Point(109, 42)
         Me.txtMarcaCliente.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.txtMarcaCliente.MaxLength = 6
         Me.txtMarcaCliente.Name = "txtMarcaCliente"
@@ -530,7 +530,7 @@ Partial Class frmCAT_Clientes
         Me.dgvCatalogo.RowHeadersVisible = False
         Me.dgvCatalogo.RowHeadersWidth = 62
         Me.dgvCatalogo.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.dgvCatalogo.Size = New System.Drawing.Size(1580, 587)
+        Me.dgvCatalogo.Size = New System.Drawing.Size(1580, 593)
         Me.dgvCatalogo.StandardTab = True
         Me.dgvCatalogo.TabIndex = 2
         '
@@ -674,6 +674,9 @@ Partial Class frmCAT_Clientes
         '
         'GroupControl1
         '
+        Me.GroupControl1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.GroupControl1.Controls.Add(Me.txtNomCliente)
         Me.GroupControl1.Controls.Add(Me.lblEstatus)
         Me.GroupControl1.Controls.Add(Me.btnCancelar)
@@ -703,7 +706,6 @@ Partial Class frmCAT_Clientes
         Me.GroupControl1.Controls.Add(Me.txtDireccion)
         Me.GroupControl1.Controls.Add(Me.lblProductor)
         Me.GroupControl1.Controls.Add(Me.txtColonia)
-        Me.GroupControl1.Dock = System.Windows.Forms.DockStyle.Top
         Me.GroupControl1.Location = New System.Drawing.Point(0, 0)
         Me.GroupControl1.Name = "GroupControl1"
         Me.GroupControl1.Size = New System.Drawing.Size(1584, 271)
@@ -716,52 +718,63 @@ Partial Class frmCAT_Clientes
         Me.GroupControl2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.GroupControl2.Location = New System.Drawing.Point(0, 0)
         Me.GroupControl2.Name = "GroupControl2"
-        Me.GroupControl2.Size = New System.Drawing.Size(1584, 618)
+        Me.GroupControl2.Size = New System.Drawing.Size(1584, 624)
         Me.GroupControl2.TabIndex = 2
         Me.GroupControl2.Text = "Listado de clientes"
         '
         'ToolStrip1
         '
         Me.ToolStrip1.ImageScalingSize = New System.Drawing.Size(24, 24)
-        Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripButton1, Me.ToolStripButton2, Me.ToolStripButton3, Me.ToolStripButton4})
+        Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.btnTnuevo, Me.BtnTguardar, Me.BtnTcancelar, Me.BtnTimprimir})
         Me.ToolStrip1.Location = New System.Drawing.Point(0, 0)
         Me.ToolStrip1.Name = "ToolStrip1"
         Me.ToolStrip1.Size = New System.Drawing.Size(1584, 41)
         Me.ToolStrip1.TabIndex = 8
         Me.ToolStrip1.Text = "ToolStrip1"
         '
-        'ToolStripButton1
+        'btnTnuevo
         '
-        Me.ToolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.ToolStripButton1.Image = Global.SistemaControlProduccion.My.Resources.Resources.Action_New_32x32
-        Me.ToolStripButton1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
-        Me.ToolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.ToolStripButton1.Name = "ToolStripButton1"
-        Me.ToolStripButton1.Size = New System.Drawing.Size(36, 36)
-        Me.ToolStripButton1.Text = "ToolStripButton1"
-        Me.ToolStripButton1.ToolTipText = "Nuevo"
+        Me.btnTnuevo.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
+        Me.btnTnuevo.Image = Global.SistemaControlProduccion.My.Resources.Resources.NewDoc_32x32
+        Me.btnTnuevo.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
+        Me.btnTnuevo.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.btnTnuevo.Name = "btnTnuevo"
+        Me.btnTnuevo.Size = New System.Drawing.Size(36, 36)
+        Me.btnTnuevo.Text = "ToolStripButton1"
+        Me.btnTnuevo.ToolTipText = "Nuevo"
         '
-        'ToolStripButton2
+        'BtnTguardar
         '
-        Me.ToolStripButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.ToolStripButton2.Image = Global.SistemaControlProduccion.My.Resources.Resources.Action_Save_32x32
-        Me.ToolStripButton2.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
-        Me.ToolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.ToolStripButton2.Name = "ToolStripButton2"
-        Me.ToolStripButton2.Size = New System.Drawing.Size(36, 36)
-        Me.ToolStripButton2.Text = "ToolStripButton2"
-        Me.ToolStripButton2.ToolTipText = "Guardar"
+        Me.BtnTguardar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
+        Me.BtnTguardar.Image = Global.SistemaControlProduccion.My.Resources.Resources.floppy_32
+        Me.BtnTguardar.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
+        Me.BtnTguardar.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.BtnTguardar.Name = "BtnTguardar"
+        Me.BtnTguardar.Size = New System.Drawing.Size(36, 36)
+        Me.BtnTguardar.Text = "ToolStripButton2"
+        Me.BtnTguardar.ToolTipText = "Guardar"
         '
-        'ToolStripButton3
+        'BtnTcancelar
         '
-        Me.ToolStripButton3.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.ToolStripButton3.Image = Global.SistemaControlProduccion.My.Resources.Resources.Cancel_32x32
-        Me.ToolStripButton3.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
-        Me.ToolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.ToolStripButton3.Name = "ToolStripButton3"
-        Me.ToolStripButton3.Size = New System.Drawing.Size(36, 36)
-        Me.ToolStripButton3.Text = "ToolStripButton3"
-        Me.ToolStripButton3.ToolTipText = "Cancelar"
+        Me.BtnTcancelar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
+        Me.BtnTcancelar.Image = Global.SistemaControlProduccion.My.Resources.Resources.SalirForm
+        Me.BtnTcancelar.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
+        Me.BtnTcancelar.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.BtnTcancelar.Name = "BtnTcancelar"
+        Me.BtnTcancelar.Size = New System.Drawing.Size(34, 36)
+        Me.BtnTcancelar.Text = "ToolStripButton3"
+        Me.BtnTcancelar.ToolTipText = "Cancelar"
+        '
+        'BtnTimprimir
+        '
+        Me.BtnTimprimir.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
+        Me.BtnTimprimir.Image = Global.SistemaControlProduccion.My.Resources.Resources.wimprimir
+        Me.BtnTimprimir.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
+        Me.BtnTimprimir.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.BtnTimprimir.Name = "BtnTimprimir"
+        Me.BtnTimprimir.Size = New System.Drawing.Size(36, 36)
+        Me.BtnTimprimir.Text = "ToolStripButton4"
+        Me.BtnTimprimir.ToolTipText = "Imprimir"
         '
         'Panel1
         '
@@ -769,31 +782,22 @@ Partial Class frmCAT_Clientes
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel1.Location = New System.Drawing.Point(0, 41)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(1584, 278)
+        Me.Panel1.Size = New System.Drawing.Size(1584, 272)
         Me.Panel1.TabIndex = 9
         '
         'Panel2
         '
         Me.Panel2.Controls.Add(Me.GroupControl2)
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel2.Location = New System.Drawing.Point(0, 319)
+        Me.Panel2.Location = New System.Drawing.Point(0, 313)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(1584, 618)
+        Me.Panel2.Size = New System.Drawing.Size(1584, 624)
         Me.Panel2.TabIndex = 10
-        '
-        'ToolStripButton4
-        '
-        Me.ToolStripButton4.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.ToolStripButton4.Image = Global.SistemaControlProduccion.My.Resources.Resources.Action_Printing_Print_32x32
-        Me.ToolStripButton4.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
-        Me.ToolStripButton4.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.ToolStripButton4.Name = "ToolStripButton4"
-        Me.ToolStripButton4.Size = New System.Drawing.Size(36, 36)
-        Me.ToolStripButton4.Text = "ToolStripButton4"
-        Me.ToolStripButton4.ToolTipText = "Imprimir"
         '
         'frmCAT_Clientes
         '
+        Me.Appearance.BackColor = System.Drawing.Color.Black
+        Me.Appearance.Options.UseBackColor = True
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 19.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1584, 969)
@@ -805,6 +809,7 @@ Partial Class frmCAT_Clientes
         Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Name = "frmCAT_Clientes"
         Me.Text = "Clientes"
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.StatusStrip1.ResumeLayout(False)
         Me.StatusStrip1.PerformLayout()
         CType(Me.DsCatalogos, System.ComponentModel.ISupportInitialize).EndInit()
@@ -877,10 +882,10 @@ Partial Class frmCAT_Clientes
     Friend WithEvents GroupControl1 As DevExpress.XtraEditors.GroupControl
     Friend WithEvents GroupControl2 As DevExpress.XtraEditors.GroupControl
     Friend WithEvents ToolStrip1 As ToolStrip
-    Friend WithEvents ToolStripButton1 As ToolStripButton
-    Friend WithEvents ToolStripButton2 As ToolStripButton
-    Friend WithEvents ToolStripButton3 As ToolStripButton
+    Friend WithEvents btnTnuevo As ToolStripButton
+    Friend WithEvents BtnTguardar As ToolStripButton
+    Friend WithEvents BtnTcancelar As ToolStripButton
     Friend WithEvents Panel1 As Panel
     Friend WithEvents Panel2 As Panel
-    Friend WithEvents ToolStripButton4 As ToolStripButton
+    Friend WithEvents BtnTimprimir As ToolStripButton
 End Class

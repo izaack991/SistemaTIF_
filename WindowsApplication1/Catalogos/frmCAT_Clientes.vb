@@ -4,6 +4,8 @@ Public Class frmCAT_Clientes
 
     Dim oCliente As clsCliente
     Dim iPrimeraVez As Boolean = True
+    Dim AnchoPantalla As Integer = My.Computer.Screen.Bounds.Width
+    Dim AltoPantalla As Integer = My.Computer.Screen.WorkingArea.Height
 
     Private Sub frmCAT_Clientes_Activated(sender As Object, e As EventArgs) Handles Me.Activated
         iPrimeraVez = False
@@ -24,7 +26,13 @@ Public Class frmCAT_Clientes
 
     Private Sub frmCAT_Clientes_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Me.CargarDatosIniciales()
-        'Me.Limpiar()
+        With Me
+
+            .Location = New Point(x:=0, y:=0)
+            .Height = AltoPantalla
+            .Width = AnchoPantalla
+            Me.WindowState = FormWindowState.Maximized
+        End With
     End Sub
 
     Private Sub btnGuardar_Click(sender As Object, e As EventArgs) Handles btnGuardar.Click
@@ -322,5 +330,21 @@ Public Class frmCAT_Clientes
 
     Private Sub txtCP_TextChanged(sender As Object, e As EventArgs) Handles txtCP.TextChanged
 
+    End Sub
+
+    Private Sub ToolStripButton1_Click(sender As Object, e As EventArgs) Handles btnTnuevo.Click
+        Me.Nuevo()
+    End Sub
+
+    Private Sub BtnTguardar_Click(sender As Object, e As EventArgs) Handles BtnTguardar.Click
+        Me.Guardar()
+    End Sub
+
+    Private Sub BtnTcancelar_Click(sender As Object, e As EventArgs) Handles BtnTcancelar.Click
+        Me.Cancelar()
+    End Sub
+
+    Private Sub BtnTimprimir_Click(sender As Object, e As EventArgs) Handles BtnTimprimir.Click
+        Me.Imprimir()
     End Sub
 End Class

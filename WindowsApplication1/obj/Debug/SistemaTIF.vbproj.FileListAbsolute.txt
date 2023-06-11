@@ -558,3 +558,15 @@ D:\Software\SistemaTif\Sistema\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\
 D:\Software\SistemaTif\Sistema\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.exe
 D:\Software\SistemaTif\Sistema\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.xml
 D:\Software\SistemaTif\Sistema\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.pdb
+D:\Software\SistemaTif\Sistema\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaTIF.vbproj.AssemblyReference.cache
+D:\Software\SistemaTif\Sistema\Sistema\SistemaTIF\WindowsApplication1\bin\Debug\DevExpress.Xpo.v19.1.dll
+D:\Software\SistemaTif\Sistema\Sistema\SistemaTIF\WindowsApplication1\bin\Debug\EntityFramework.dll
+D:\Software\SistemaTif\Sistema\Sistema\SistemaTIF\WindowsApplication1\bin\Debug\EntityFramework.SqlServer.dll
+D:\Software\SistemaTif\Sistema\Sistema\SistemaTIF\WindowsApplication1\bin\Debug\DevExpress.Xpo.v19.1.xml
+D:\Software\SistemaTif\Sistema\Sistema\SistemaTIF\WindowsApplication1\bin\Debug\EntityFramework.xml
+D:\Software\SistemaTif\Sistema\Sistema\SistemaTIF\WindowsApplication1\bin\Debug\EntityFramework.SqlServer.xml
+D:\Software\SistemaTif\Sistema\Sistema\SistemaTIF\WindowsApplication1\bin\Debug\de\DevExpress.Xpo.v19.1.resources.dll
+D:\Software\SistemaTif\Sistema\Sistema\SistemaTIF\WindowsApplication1\bin\Debug\es\DevExpress.Xpo.v19.1.resources.dll
+D:\Software\SistemaTif\Sistema\Sistema\SistemaTIF\WindowsApplication1\bin\Debug\ja\DevExpress.Xpo.v19.1.resources.dll
+D:\Software\SistemaTif\Sistema\Sistema\SistemaTIF\WindowsApplication1\bin\Debug\ru\DevExpress.Xpo.v19.1.resources.dll
+D:\Software\SistemaTif\Sistema\Sistema\SistemaTIF\WindowsApplication1\obj\Debug\SistemaControlProduccion.dxMenu.resources

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TIFMAZATLANModelnuevo.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="ALMACENES">
+    <Key>
+      <PropertyRef Name="ID_ALM" />
+    </Key>
+    <Property Name="ID_ALM" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ID_CTE" Type="int" Nullable="false" />
+    <Property Name="NOMBRE" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="F_ENTRADA" Type="int" />
+    <Property Name="F_SALIDA" Type="int" />
+    <Property Name="F_TRANSFERENCIA" Type="int" />
+    <Property Name="TIPO" Type="int" Nullable="false" />
+    <Property Name="ESTATUS" Type="char" MaxLength="1" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CLIENTES">
+    <Key>
+      <PropertyRef Name="ID_CTE" />
+    </Key>
+    <Property Name="ID_CTE" Type="int" Nullable="false" />
+    <Property Name="NOMBRE" Type="varchar" MaxLength="60" Nullable="false" />
+    <Property Name="MARCA" Type="varchar" MaxLength="6" Nullable="false" />
+    <Property Name="DIRECCION" Type="varchar" MaxLength="40" />
+    <Property Name="COLONIA" Type="varchar" MaxLength="30" />
+    <Property Name="MUNICIPIO" Type="varchar" MaxLength="30" />
+    <Property Name="ESTADO" Type="varchar" MaxLength="20" />
+    <Property Name="EMAIL" Type="varchar" MaxLength="30" />
+    <Property Name="TELEFONO" Type="varchar" MaxLength="12" />
+    <Property Name="CELULAR" Type="varchar" MaxLength="12" />
+    <Property Name="CP" Type="char" MaxLength="5" />
+    <Property Name="RFC" Type="char" MaxLength="13" />
+    <Property Name="ID_TCTE" Type="int" Nullable="false" />
+    <Property Name="ESTATUS" Type="char" MaxLength="1" Nullable="false" />
+    <Property Name="HORA_INI" Type="time" Precision="7" />
+    <Property Name="HORA_PED" Type="time" Precision="7" />
+  </EntityType>
+  <EntityType Name="ESPECIES">
+    <Key>
+      <PropertyRef Name="ID_ESPECIE" />
+    </Key>
+    <Property Name="ID_ESPECIE" Type="int" Nullable="false" />
+    <Property Name="NOMBRE" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="ESTATUS" Type="char" MaxLength="1" Nullable="false" />
+  </EntityType>
+  <EntityType Name="FAMILIAS">
+    <Key>
+      <PropertyRef Name="ID_FAM" />
+    </Key>
+    <Property Name="ID_FAM" Type="int" Nullable="false" />
+    <Property Name="NOMBRE" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="ESTATUS" Type="char" MaxLength="1" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_ALMACENE_ALMACEN_C_CLIENTES">
+    <End Role="CLIENTES" Type="Self.CLIENTES" Multiplicity="1" />
+    <End Role="ALMACENES" Type="Self.ALMACENES" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CLIENTES">
+        <PropertyRef Name="ID_CTE" />
+      </Principal>
+      <Dependent Role="ALMACENES">
+        <PropertyRef Name="ID_CTE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="TIFMAZATLANModelnuevoStoreContainer">
+    <EntitySet Name="ALMACENES" EntityType="Self.ALMACENES" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CLIENTES" EntityType="Self.CLIENTES" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ESPECIES" EntityType="Self.ESPECIES" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="FAMILIAS" EntityType="Self.FAMILIAS" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_ALMACENE_ALMACEN_C_CLIENTES" Association="Self.FK_ALMACENE_ALMACEN_C_CLIENTES">
+      <End Role="CLIENTES" EntitySet="CLIENTES" />
+      <End Role="ALMACENES" EntitySet="ALMACENES" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

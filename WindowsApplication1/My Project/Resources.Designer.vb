@@ -243,6 +243,16 @@ Namespace My.Resources
         '''<summary>
         '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property floppy_32() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("floppy-32", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property Guardar() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("Guardar", resourceCulture)
@@ -313,6 +323,16 @@ Namespace My.Resources
         '''<summary>
         '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property NewDoc_32x32() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("NewDoc_32x32", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property Nuevo() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("Nuevo", resourceCulture)
@@ -353,6 +373,16 @@ Namespace My.Resources
         '''<summary>
         '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property SalirForm() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("SalirForm", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property Save() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("Save", resourceCulture)
@@ -376,6 +406,26 @@ Namespace My.Resources
         Friend ReadOnly Property Search() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("Search", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property UsuarioNoExiste() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("UsuarioNoExiste", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property wimprimir() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("wimprimir", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

@@ -133,11 +133,17 @@
   <data name="Cancelar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Cancelar.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="beef cuts" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\beef cuts.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="metro_search_11261" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\metro_search_11261.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Guardar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Guardar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UsuarioNoExiste" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UsuarioNoExiste.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="beef cuts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\beef cuts.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="inbox_download" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\inbox_download.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -148,8 +154,8 @@
   <data name="Imprimir" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Imprimir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="metro_search_11261" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\metro_search_11261.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Cancel_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cancel_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Action_Printing_Print_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Action_Printing_Print_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -168,6 +174,9 @@
   </data>
   <data name="Print" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Print.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SalirForm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SalirForm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Eliminar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Eliminar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -190,6 +199,9 @@
   <data name="Action_Save_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Action_Save_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="floppy-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\floppy-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Action_Refresh_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Action_Refresh_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -211,7 +223,10 @@
   <data name="iconobase" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconobase.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Cancel_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Cancel_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="NewDoc_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NewDoc_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wimprimir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wimprimir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

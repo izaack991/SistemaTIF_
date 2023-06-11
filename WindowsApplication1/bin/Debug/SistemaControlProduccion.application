@@ -14,14 +14,14 @@
     <framework targetVersion="4.5.2" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="SistemaControlProduccion.exe.manifest" size="67159">
+    <dependentAssembly dependencyType="install" codebase="SistemaControlProduccion.exe.manifest" size="72879">
       <assemblyIdentity name="SistemaControlProduccion.exe" version="1.0.3.343" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>pj3T4Rns6gh9N+vDiQjLQg/ISj2Veaf9tELSeN60wPc=</dsig:DigestValue>
+        <dsig:DigestValue>84abibBXKykT2+UdE8i0Op8x5FqmsXEQrf1/we77HyI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

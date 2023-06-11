@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TIFMAZATLANModelnuevoStoreContainer" CdmEntityContainer="TIFMAZATLANEntities3">
+    <EntitySetMapping Name="ALMACENES">
+      <EntityTypeMapping TypeName="TIFMAZATLANModelnuevo.ALMACENES">
+        <MappingFragment StoreEntitySet="ALMACENES">
+          <ScalarProperty Name="ID_ALM" ColumnName="ID_ALM" />
+          <ScalarProperty Name="ID_CTE" ColumnName="ID_CTE" />
+          <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+          <ScalarProperty Name="F_ENTRADA" ColumnName="F_ENTRADA" />
+          <ScalarProperty Name="F_SALIDA" ColumnName="F_SALIDA" />
+          <ScalarProperty Name="F_TRANSFERENCIA" ColumnName="F_TRANSFERENCIA" />
+          <ScalarProperty Name="TIPO" ColumnName="TIPO" />
+          <ScalarProperty Name="ESTATUS" ColumnName="ESTATUS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CLIENTES">
+      <EntityTypeMapping TypeName="TIFMAZATLANModelnuevo.CLIENTES">
+        <MappingFragment StoreEntitySet="CLIENTES">
+          <ScalarProperty Name="ID_CTE" ColumnName="ID_CTE" />
+          <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+          <ScalarProperty Name="MARCA" ColumnName="MARCA" />
+          <ScalarProperty Name="DIRECCION" ColumnName="DIRECCION" />
+          <ScalarProperty Name="COLONIA" ColumnName="COLONIA" />
+          <ScalarProperty Name="MUNICIPIO" ColumnName="MUNICIPIO" />
+          <ScalarProperty Name="ESTADO" ColumnName="ESTADO" />
+          <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+          <ScalarProperty Name="TELEFONO" ColumnName="TELEFONO" />
+          <ScalarProperty Name="CELULAR" ColumnName="CELULAR" />
+          <ScalarProperty Name="CP" ColumnName="CP" />
+          <ScalarProperty Name="RFC" ColumnName="RFC" />
+          <ScalarProperty Name="ID_TCTE" ColumnName="ID_TCTE" />
+          <ScalarProperty Name="ESTATUS" ColumnName="ESTATUS" />
+          <ScalarProperty Name="HORA_INI" ColumnName="HORA_INI" />
+          <ScalarProperty Name="HORA_PED" ColumnName="HORA_PED" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ESPECIES">
+      <EntityTypeMapping TypeName="TIFMAZATLANModelnuevo.ESPECIES">
+        <MappingFragment StoreEntitySet="ESPECIES">
+          <ScalarProperty Name="ID_ESPECIE" ColumnName="ID_ESPECIE" />
+          <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+          <ScalarProperty Name="ESTATUS" ColumnName="ESTATUS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FAMILIAS">
+      <EntityTypeMapping TypeName="TIFMAZATLANModelnuevo.FAMILIAS">
+        <MappingFragment StoreEntitySet="FAMILIAS">
+          <ScalarProperty Name="ID_FAM" ColumnName="ID_FAM" />
+          <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+          <ScalarProperty Name="ESTATUS" ColumnName="ESTATUS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

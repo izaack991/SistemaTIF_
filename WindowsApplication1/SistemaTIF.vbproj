@@ -96,19 +96,30 @@
     <Reference Include="DevExpress.Printing.v19.1.Core, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Sparkline.v19.1.Core, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Utils.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Xpo.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraBars.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraEditors.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraGrid.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraLayout.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraPrinting.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Data.Entity" />
     <Reference Include="System.Data.Linq" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
@@ -130,6 +141,9 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ALMACENES.vb">
+      <DependentUpon>ModeloNuevo.tt</DependentUpon>
+    </Compile>
     <Compile Include="Application.vb" />
     <Compile Include="Busquedas\frmBusInsumos.Designer.vb">
       <DependentUpon>frmBusInsumos.vb</DependentUpon>
@@ -251,6 +265,9 @@
     <Compile Include="Clases\clsProductos.vb" />
     <Compile Include="Clases\clsServidor.vb" />
     <Compile Include="Clases\clsSubFamilias.vb" />
+    <Compile Include="CLIENTES.vb">
+      <DependentUpon>ModeloNuevo.tt</DependentUpon>
+    </Compile>
     <Compile Include="Configuraciones\frmCONFIG_Permisos_Validaciones.Designer.vb">
       <DependentUpon>frmCONFIG_Permisos_Validaciones.vb</DependentUpon>
     </Compile>
@@ -886,6 +903,18 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DS_VERFICAR_cAJAS.xsd</DependentUpon>
     </Compile>
+    <Compile Include="dxMenu.Designer.vb">
+      <DependentUpon>dxMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dxMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ESPECIES.vb">
+      <DependentUpon>ModeloNuevo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FAMILIAS.vb">
+      <DependentUpon>ModeloNuevo.tt</DependentUpon>
+    </Compile>
     <Compile Include="frmLogin.Designer.vb">
       <DependentUpon>frmLogin.vb</DependentUpon>
     </Compile>
@@ -952,6 +981,21 @@
     <Compile Include="mdiPrincipal.Designer.vb">
       <DependentUpon>mdiPrincipal.vb</DependentUpon>
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModeloNuevo.Context.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModeloNuevo.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ModeloNuevo.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModeloNuevo.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="ModeloNuevo.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModeloNuevo.tt</DependentUpon>
     </Compile>
     <Compile Include="Modulos\modConexion.vb" />
     <Compile Include="Modulos\modFuncProc.vb" />
@@ -1544,6 +1588,9 @@
     <EmbeddedResource Include="Consultas\FRM_REV_CALIDAD.resx">
       <DependentUpon>FRM_REV_CALIDAD.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="dxMenu.resx">
+      <DependentUpon>dxMenu.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmLogin.resx">
       <DependentUpon>frmLogin.vb</DependentUpon>
     </EmbeddedResource>
@@ -1927,6 +1974,13 @@
     <None Include="DS_VERFICAR_cAJAS.xss">
       <DependentUpon>DS_VERFICAR_cAJAS.xsd</DependentUpon>
     </None>
+    <EntityDeploy Include="ModeloNuevo.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>ModeloNuevo.Designer.vb</LastGenOutput>
+    </EntityDeploy>
+    <None Include="ModeloNuevo.edmx.diagram">
+      <DependentUpon>ModeloNuevo.edmx</DependentUpon>
+    </None>
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -1937,6 +1991,7 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+    <None Include="packages.config" />
     <None Include="SistemaTIF_1_TemporaryKey.pfx" />
     <None Include="SistemaTIF_3_TemporaryKey.pfx" />
     <None Include="SistemaTIF_4_TemporaryKey.pfx" />
@@ -1962,6 +2017,7 @@
     <None Include="Resources\Imprimir.png" />
   </ItemGroup>
   <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
     <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
   </ItemGroup>
   <ItemGroup>
@@ -2918,6 +2974,23 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Cancel_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ModeloNuevo.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ModeloNuevo.edmx</DependentUpon>
+      <LastGenOutput>ModeloNuevo.Context.vb</LastGenOutput>
+    </Content>
+    <Content Include="ModeloNuevo.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ModeloNuevo.edmx</DependentUpon>
+      <LastGenOutput>ModeloNuevo.vb</LastGenOutput>
+    </Content>
+    <None Include="Resources\wimprimir.png" />
+    <None Include="Resources\SalirForm.png" />
+    <None Include="Resources\UsuarioNoExiste.png" />
+    <None Include="Resources\floppy-32.png" />
+    <None Include="Resources\NewDoc_32x32.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
