@@ -53,7 +53,7 @@ Public Class frmLogin
             If res = 1 Then
                 ' m.Show()
                 ' Me.Hide()
-                Dim mn As New FRM_MENU_PRINCIPAL(Me.UsernameTextBox.Text, iRol, iIdUsuarios)
+                Dim mn As New MenuLiveStock
                 mn.Show()
                 Me.Hide()
             Else
